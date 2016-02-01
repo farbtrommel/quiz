@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "easyimage": "^2.1.0",
+    "es6-promise": "3.0.2",
+    "es6-shim": "0.33.13",
+    "ionic-framework": "2.0.0-alpha.48",
+    "reflect-metadata": "0.1.2",
+    "request": "^2.67.0",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^0.15.9",
+    "strip-sourcemap-loader": "0.0.1",
+    "typescript": "^1.7.3"
+  },
+  "name": "de.farbtrommel.quiz",
+  "description": "de.farbtrommel.quiz: An Ionic project",
+  "cordovaPlugins": [
+    "cordova-sqlite-storage"
+  ],
+  "cordovaPlatforms": [
+    "android"
+  ]
+}

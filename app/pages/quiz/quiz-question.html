@@ -1,0 +1,9 @@
+<ion-col (click)="onClick(item)">
+    <ion-card [class.right-answer]="quizset.AnswersId[quizset.CrtQuestion] == item.id && quizset.CrtCorrectAnswerId == item.id"
+              [class.wrong-answer]="quizset.AnswersId[quizset.CrtQuestion] == item.id && quizset.CrtCorrectAnswerId != item.id">
+        <img src="./assets/quiz/{{quizset.GameId}}/thumbnail-{{ item.id }}.jpg">
+        <ion-card-content>
+            <p> {{ item.Name }} </p>
+        </ion-card-content>
+    </ion-card>
+</ion-col>

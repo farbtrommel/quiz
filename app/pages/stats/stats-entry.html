@@ -1,0 +1,14 @@
+<ion-item (click)="showDetailsOnClick(item)">
+    <ion-thumbnail item-left>
+        <img src="./assets/quiz/{{ game.id }}/thumbnail-{{ item.id }}.jpg"/>
+    </ion-thumbnail>
+
+    <h2> {{ item.Name }}</h2>
+    <p> {{ item.Sciname }}</p>
+
+    <ion-icon name="checkmark"  class="large mark-as-right">&nbsp;:&nbsp;
+        {{ stats.wins }}</ion-icon>
+    <ion-icon name="close" class="large mark-as-wrong" style="float:right;">&nbsp;:&nbsp;
+        {{ stats.losses }}</ion-icon>
+
+</ion-item>

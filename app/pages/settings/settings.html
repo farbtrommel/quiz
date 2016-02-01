@@ -1,0 +1,12 @@
+<ion-navbar *navbar>
+    <ion-title>Stadtnatur entdecken</ion-title>
+</ion-navbar>
+
+<ion-content class="settings">
+    <button ion-item (click)="openPrompt()">
+        Anzahl der Runden <ion-badge item-right>{{ storageService.getNumberOfRounds() }}</ion-badge>
+    </button>
+    <ion-toggle checked="storageService.getExpertMode()">
+        Experten Modus
+    </ion-toggle>
+</ion-content>

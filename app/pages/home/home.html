@@ -1,0 +1,18 @@
+<ion-navbar *navbar hideBackButton class="show-navbar android-attr">
+    <ion-title >Stadtnatur entdecken</ion-title>
+</ion-navbar>
+
+<ion-content class="has-header components-demo cards-bg home">
+    <ion *ngFor="#game of Games">
+        <ion-card class="advanced-background" (click)="startGame(game)" *ngIf="game.GamesSet.length > 0">
+
+            <img src="./img/placeholder-home-screen.png"/>
+            <p class="advanced-background-title">
+                {{ game.Name }}<br/>
+                <span class="advanced-background-subtitle">{{ game.GamesSet.length }} Arten </span>
+            </p>
+
+        </ion-card>
+    </ion>
+
+</ion-content>

@@ -1,0 +1,57 @@
+.quiz {
+  ion-card-content {
+    overflow: hidden;
+  }
+
+  ion-card.right-answer:after, ion-thumbnail.right:after,
+  ion-card.wrong-answer:after, ion-thumbnail.wrong:after {
+    display: inline-block;
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    font-size: 12em;
+    color: rgba(255, 255, 255, 0.7);
+
+    position: absolute;
+    display: block;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  ion-card.right-answer:after, ion-thumbnail.right:after {
+    content: "\f3ff";
+    //background-image: url('../../img/answer_right.png');
+    background-color: rgba(0, 255, 0, 0.6);
+  }
+  ion-card.wrong-answer:after, ion-thumbnail.wrong:after {
+    content: "\f2c0";
+    //background-image: url('../../img/answer_wrong.png');
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+
+
+  button[fab].fab-audio ion-icon{
+    margin-top: 14px;
+  }
+  button[fab].fab-audio {
+    margin-top: -27px;
+    z-index: 50;
+  }
+  body.ios button[fab].fab-audio {
+    width: 50px;
+    height: 50px;
+  }
+  body.md button[fab].fab-audio {
+    margin-top: -27px;
+  }
+}

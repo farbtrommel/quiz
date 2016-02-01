@@ -1,0 +1,25 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Shared Imports
+// --------------------------------------------------
+// These are the imports which make up the design of this app.
+// By default each design mode includes these shared imports.
+// App Shared Sass variables belong in app.variables.scss.
+
+@import 'pages/home/home';
+@import 'pages/quiz/quiz';
+@import 'pages/settings/settings';
+@import 'pages/stats/stats';
+@import 'pages/information/information';
+
+.mark-as-right:before, .mark-as-wrong:before{
+  font-size: 3em;
+  vertical-align: -0.26em;
+}
+.mark-as-right {
+  color: green;
+}
+.mark-as-wrong {
+  color: red;
+}

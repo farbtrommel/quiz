@@ -1,0 +1,44 @@
+<ion-toolbar class="android-attr">
+    <ion-title>
+        Details
+    </ion-title>
+    <ion-buttons start>
+        <button (click)="dismiss()" clear *ngIf=" currentPlatform === 'ios' ">
+            <span primary>Abbrechen</span>
+        </button>
+        <button (click)="dismiss()" clear *ngIf=" currentPlatform === 'android' " style="margin-right: 10px">
+            <ion-icon name='close'></ion-icon>
+        </button>
+    </ion-buttons>
+</ion-toolbar>
+
+
+<ion-content class="has-header components-demo cards-bg quiz">
+    <ion-card>
+        <img src="./assets/quiz/{{ gameId }}/thumbnail-{{ item.id }}.jpg">
+        <button fab fab-right class="fab-audio">
+            <ion-audio src="{{item.Audio.Src}}"
+                       htmlcontrols="false" controls="true" autoplay="false" loop="true"></ion-audio>
+        </button>
+
+        <ion-card-content>
+            <h1> {{ item.Name }} </h1>
+            <h2> {{ item.Sciname }} </h2>
+            <br/>
+            <p> {{ item.Abstract }} </p>
+        </ion-card-content>
+
+        <ion-item>
+            <button primary clear item-left (click)="openLink(item.Link)">
+                <ion-icon name='link'></ion-icon>
+            </button>
+            <button primary clear item-left (click)="openLink(item.Image.Link)">
+                <ion-icon name='image'></ion-icon>
+            </button>
+            <button primary clear item-left (click)="openLink(item.Audio.Link)">
+                <ion-icon name='musical-notes'></ion-icon>
+            </button>
+        </ion-item>
+
+    </ion-card>
+</ion-content>

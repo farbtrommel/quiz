@@ -1,0 +1,21 @@
+<ion-navbar *navbar hideBackButton>
+    <ion-title >Quizrunde {{quizSet.CrtQuestion + 1}} / {{quizSet.NumberOfGames}}</ion-title>
+</ion-navbar>
+
+<ion-content class="quiz" *ngIf="quizSet.CrtQuestion < quizSet.NumberOfGames">
+    <ion-row>
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][0]" (click)="onClick(0)"></quiz-question>
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][1]" (click)="onClick(1)"></quiz-question>
+    </ion-row>
+    <ion-row>
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][2]" (click)="onClick(2)"></quiz-question>
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][3]" (click)="onClick(3)"></quiz-question>
+    </ion-row>
+    <ion-audio
+            src="{{ quizSet.Set[quizSet.CrtQuestion][quizSet.CrtCorrectAnswer].Audio.Src }}"
+            htmlcontrols="false" controls="false" autoplay="true" loop="true"></ion-audio>
+</ion-content>
