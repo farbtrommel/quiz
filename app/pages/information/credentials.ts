@@ -1,19 +1,20 @@
 import {Page, NavController, NavParams, Modal, ViewController, Platform} from 'ionic-framework/ionic';
 import {Quiz} from '../../quiz/controller'
 import {Details} from '../quiz/details'
+import {IGame, IGameEntry} from "../../quiz/interfaces";
 
 @Page({
     templateUrl: 'build/pages/information/credentials.html'
 })
 export class CredentialsPage {
     private nav: NavController;
-    private games: Quiz.IGame[];
+    private games: IGame[];
 
     private showCategory:boolean = true;
     private selectedCategory:number = 0;
     private selectedGameId: string = null;
 
-    private data:Quiz.IGameEntry[];
+    private data:IGameEntry[];
     private searchQuery:string = '';
 
 
@@ -66,7 +67,7 @@ export class CredentialsPage {
             null);
     }
 
-    showDetails(entry:Quiz.IGameEntry) {
+    showDetails(entry: IGameEntry) {
         let modal = Modal.create(Details, {"gameId": this.selectedGameId ,"item": entry});
         this.nav.present(modal);
     }

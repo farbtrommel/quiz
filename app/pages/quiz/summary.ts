@@ -1,5 +1,5 @@
 import {Page, NavController, NavParams, Modal, ViewController, Platform} from 'ionic-framework/ionic';
-import {Quiz} from '../../quiz/controller';
+import {Quiz, IQuizSet, IGameEntry} from '../../quiz/controller';
 import {Details} from './details';
 
 @Page({
@@ -7,14 +7,14 @@ import {Details} from './details';
 })
 export class Summary {
     private nav: NavController;
-    private quizSet: Quiz.IQuizSet;
+    private quizSet: IQuizSet;
 
     constructor(nav:NavController, navParams: NavParams) {
         this.nav = nav;
         this.quizSet = navParams.get("quizSet");
     }
 
-    clickViewDetails(entry:Quiz.IGameEntry) {
+    clickViewDetails(entry:IGameEntry) {
         let modal = Modal.create(Details, {"gameId": this.quizSet.GameId ,"item": entry});
         this.nav.present(modal);
     }

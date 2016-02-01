@@ -2,7 +2,7 @@ import {Component, Directive, View, ElementRef, Input} from 'angular2/core';
 import {Page, NavController, NavParams, Platform, Modal, Icon, ViewController, List, Item} from 'ionic-framework/ionic';
 import {StorageService} from '../../quiz/storage-service'
 import {GameStats, GameStatsEntry} from '../../quiz/GameStats'
-import {Quiz} from '../../quiz/controller';
+import {Quiz, IGame, IGameEntry} from '../../quiz/controller';
 import {Details} from '../quiz/details'
 
 
@@ -18,8 +18,8 @@ import {Details} from '../quiz/details'
 })
 export class StatsEntry{
     element: ElementRef;
-    @Input() game:Quiz.IGame;
-    @Input() item:Quiz.IGameEntry;
+    @Input() game:IGame;
+    @Input() item:IGameEntry;
     @Input() stats:any = {"wins": 0, "losses": 0};
     viewCtrl: ViewController;
     nav: NavController;
@@ -44,13 +44,13 @@ export class StatsPage {
     storageService: StorageService;
     nav: NavController;
     title: string = "Stadtnatur entdecken";
-    Games: Quiz.IGame[];
-    gameSet: Quiz.IGameEntry[];
-    gameSetById: {[id:string]: Quiz.IGameEntry} = {};
+    Games: IGame[];
+    gameSet: IGameEntry[];
+    gameSetById: {[id:string]: IGameEntry} = {};
     ratedSet: GameStatsEntry;
-    topSet: Quiz.IGameEntry[];
-    flopSet: Quiz.IGameEntry[];
-    unratedSet: Quiz.IGameEntry[];
+    topSet: IGameEntry[];
+    flopSet: IGameEntry[];
+    unratedSet: IGameEntry[];
     gameNo:number = 0;
     gameId:string;
     showDetails:boolean = true;
@@ -112,7 +112,7 @@ export class StatsPage {
         this.gameSet = this.Games[this.gameNo].GamesSet;
     }
 
-    onClickCategory(game:Quiz.IGame, no:number) {
+    onClickCategory(game:IGame, no:number) {
         this.nav.push(StatsPage, {"gameNo": no, "showDetails": true}, {"animate": true}, null);
     }
 
@@ -133,7 +133,7 @@ export class StatsPage {
         })
     }
 
-    showDetailsOnClick(game:Quiz.IGame, entry:Quiz.IGameEntry) {
+    showDetailsOnClick(game:IGame, entry:IGameEntry) {
         let modal = Modal.create(Details, {"gameId": game,"item": entry});
         this.nav.present(modal);
     }

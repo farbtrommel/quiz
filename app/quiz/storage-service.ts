@@ -3,7 +3,11 @@ import {Injectable, Inject} from 'angular2/core'
 import {Http} from 'angular2/http'
 import {Quiz} from './controller';
 import {GameStats} from './GameStats';
+import {IGame} from "./interfaces";
 
+/**
+ * Storage Service handles all related things to persistent storage.
+ */
 @Injectable()
 export class StorageService {
     private storage:Storage;
@@ -32,7 +36,7 @@ export class StorageService {
      */
     setNumberOfRounds(value:number) {
         this.numberOfRounds = parseInt(<string>value);
-        var games:Quiz.IGame[] = Quiz.getGames();
+        var games:IGame[] = Quiz.getGames();
         var min:number = games[0].GamesSet.length;
         for (var i=1; i < games.length; i++) {
             if (games[i].GamesSet.length > 0 && games[i].GamesSet.length < min) {

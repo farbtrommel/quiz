@@ -1,8 +1,8 @@
-import {Quiz} from '../quiz/controller';
+import {Quiz, IQuizSet} from '../quiz/controller';
 
 export namespace Game {
     export class Stats {
-        addRound(quizSet: Quiz.IQuizSet){
+        addRound(quizSet: IQuizSet){
             var obj = {
               "GameId": quizSet.GameId,
               "Questions": [

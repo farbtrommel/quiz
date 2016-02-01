@@ -1,6 +1,7 @@
 import {Storage} from 'ionic-framework/ionic'
 import {GameStatsEntry} from "./GameStatsEntry";
-import {Quiz} from './controller';
+import {IGame} from "./interfaces";
+import {Quiz} from "./controller";
 
 /**
  * GameStats Class handle all Stats related operations.
@@ -19,7 +20,7 @@ export class GameStats {
             this.wins = gameStats.wins;
             this.losses = gameStats.losses;
         }
-        var games :Quiz.IGame[] = Quiz.getGames();
+        var games :IGame[] = Quiz.getGames();
         for (var i:number=0; i < games.length; i++) {
             this.game[games[i].id] = new GameStatsEntry(storage, games[i]);
         }

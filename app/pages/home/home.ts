@@ -1,5 +1,5 @@
 import {Page, NavController} from 'ionic-framework/ionic';
-import {Quiz} from '../../quiz/controller';
+import {Quiz, IGame} from '../../quiz/controller';
 import {QuizPage} from '../quiz/quiz';
 
 
@@ -15,7 +15,7 @@ export class HomePage {
         this.Games = Quiz.getGames();
     }
 
-    startGame(game:Quiz.IGame) {
+    startGame(game:IGame) {
         this.nav.setRoot(QuizPage, {"game": game}, {"animate": true});
     }
 }

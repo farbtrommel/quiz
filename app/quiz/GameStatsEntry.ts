@@ -1,5 +1,5 @@
 import {Storage} from 'ionic-framework/ionic'
-import {Quiz} from './controller';
+import {IGame} from "./interfaces";
 
 /**
  * Stats Information about one game.
@@ -9,14 +9,14 @@ export class GameStatsEntry {
     private losses: number = 0;
     private stats:{[entryId:string]: {wins:number, losses:number}} = {};
     private storage:Storage;
-    private game:Quiz.IGame;
+    private game:IGame;
 
     /**
      * Get data from persistent storage and init. all need objects.
      * @param storage
      * @param game
      */
-    constructor(storage: Storage, game:Quiz.IGame) {
+    constructor(storage: Storage, game:IGame) {
         this.storage = storage;
         this.game = game;
 

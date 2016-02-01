@@ -7,14 +7,19 @@ import {StorageService} from '../../quiz/storage-service';
 export class SettingsPage {
     private nav:NavController;
     private storageService: StorageService;
+    private expertMode: boolean;
 
     constructor(storageService: StorageService, nav: NavController, navParams: NavParams) {
         this.nav = nav;
         this.storageService = storageService;
+        this.expertMode = this.storageService.getExpertMode();
     }
+
     clickExpertMode() {
-        this.storageService.setExpertMode(!this.storageService.getExpertMode())
+        console.log("toggle expert mode");
+        this.storageService.setExpertMode(!this.expertMode)
     }
+
     openPrompt() {
         let prompt = Alert.create({
             body: "Bitte geben Sie eine Anzahl der Runden ein",

@@ -1,5 +1,5 @@
 import {Page, NavController, NavParams, ViewController, Platform} from 'ionic-framework/ionic';
-import {Quiz} from '../../quiz/controller';
+import {Quiz, IGameEntry} from '../../quiz/controller';
 import {AudioControl} from '../../quiz/audio';
 
 @Page({
@@ -7,7 +7,7 @@ import {AudioControl} from '../../quiz/audio';
     directives: [AudioControl]
 })
 export class Details {
-    private item:Quiz.IGameEntry;
+    private item:IGameEntry;
     private gameId: number;
     private currentPlatform: string;
     private viewCtrl: ViewController;
