@@ -12,7 +12,9 @@ export class SettingsPage {
         this.nav = nav;
         this.storageService = storageService;
     }
-
+    clickExpertMode() {
+        this.storageService.setExpertMode(!this.storageService.getExpertMode())
+    }
     openPrompt() {
         let prompt = Alert.create({
             body: "Bitte geben Sie eine Anzahl der Runden ein",
