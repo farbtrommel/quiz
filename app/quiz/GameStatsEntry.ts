@@ -73,6 +73,14 @@ export class GameStatsEntry {
     }
 
     /**
+     * Return all stats.
+     * @returns {{}}
+     */
+    getStats(): {[entryId:string]: {wins:number, losses:number}} {
+        return this.stats;
+    }
+
+    /**
      * Get entry by id.
      * @param entryId
      * @returns {{wins: number, losses: number}}

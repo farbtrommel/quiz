@@ -1,6 +1,7 @@
 import {Component, Directive, View, ElementRef, Input} from 'angular2/core';
 import {Page, NavController, NavParams, Platform, Modal, Icon, ViewController, List, Item} from 'ionic-framework/ionic';
-import {StorageService, GameStatsEntry} from '../../quiz/storage-service'
+import {StorageService} from '../../quiz/storage-service'
+import {GameStats, GameStatsEntry} from '../../quiz/GameStats'
 import {Quiz} from '../../quiz/controller';
 import {Details} from '../quiz/details'
 
@@ -82,7 +83,7 @@ export class StatsPage {
 
     sort(sortBy:string) {
         var sortable = [];
-        for (var key in this.ratedSet.stats) {
+        for (var key in this.ratedSet.getStats()) {
             sortable.push([key, this.ratedSet.getEntry(key)])
         }
         var result = [];
@@ -128,10 +129,7 @@ export class StatsPage {
         }
 
         this.gameSet = this.gameSet.filter((v) => {
-            if (v.Name.toLowerCase().indexOf(q.toLowerCase()) > -1) {
-                return true;
-            }
-            return false;
+            return (v.Name.toLowerCase().indexOf(q.toLowerCase()) > -1);
         })
     }
 
