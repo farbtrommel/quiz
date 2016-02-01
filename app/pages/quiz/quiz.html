@@ -16,6 +16,6 @@
                        [(item)]="quizSet.Set[quizSet.CrtQuestion][3]" (click)="onClick(3)"></quiz-question>
     </ion-row>
     <ion-audio
-            src="{{ quizSet.Set[quizSet.CrtQuestion][quizSet.CrtCorrectAnswer].Audio.Src }}"
+            src="./assets/quiz/{{ quizSet.GameId }}/audio-{{quizSet.CrtCorrectAnswerId}}.mp3"
             htmlcontrols="false" controls="false" autoplay="true" loop="true"></ion-audio>
 </ion-content>
