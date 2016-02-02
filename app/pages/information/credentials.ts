@@ -21,17 +21,18 @@ export class CredentialsPage {
     constructor(nav:NavController, navParams: NavParams) {
         this.nav = nav;
         this.games = Quiz.getGames();
-        this.selectedGameId = navParams.get("selectedGameId") || this.selectedGameId;
-        this.selectedCategory = navParams.get("selectedCategory") || this.selectedCategory;
-        if (this.selectedGameId && this.selectedCategory) {
-            this.showCategory = false;
+        if (typeof navParams.get("showCategory") != "undefined") {
+            this.showCategory = navParams.get("showCategory");
+            this.selectedGameId = navParams.get("selectedGameId");
+            this.selectedCategory = navParams.get("selectedCategory");
         }
+
         this.initializeItems()
 
     }
 
     initializeItems() {
-        if (this.selectedCategory) {
+        if (this.selectedCategory >= 0 && this.selectedCategory < this.games.length) {
             this.data = this.games[this.selectedCategory].GamesSet;
         }
     }
@@ -60,6 +61,7 @@ export class CredentialsPage {
         this.selectedCategory = no;
         this.selectedGameId = this.games[this.selectedCategory].id;
         this.nav.push(CredentialsPage, {
+                "showCategory": false,
                 "selectedGameId": this.selectedGameId,
                 "selectedCategory": this.selectedCategory
             },
