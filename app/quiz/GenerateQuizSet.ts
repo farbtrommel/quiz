@@ -9,9 +9,12 @@ export class GenerateQuizSet {
 
     private quizSet: QuizSet;
     private excludeGameEntries:string[] = [];
+    private callback: () => void;
 
-    constructor(quizSet: QuizSet) {
+    constructor(quizSet: QuizSet, gameSet:IGameEntry[], callback: () => void) {
         this.quizSet = quizSet;
+        this.createSet(gameSet);
+        this.callback = callback;
     }
 
     /**
@@ -28,6 +31,10 @@ export class GenerateQuizSet {
             this.quizSet.CorrectAnswer.push(correct);
             this.excludeGameEntries.push(quizRound[correct].id);
             this.quizSet.Set.push(quizRound);
+        }
+
+        if (this.callback) {
+            this.callback();
         }
     }
 
