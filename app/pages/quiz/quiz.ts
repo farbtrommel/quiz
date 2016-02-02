@@ -1,4 +1,5 @@
 import {Component, Directive, View, ElementRef, Input} from 'angular2/core';
+import {Http} from 'angular2/http'
 import {Page, NavController, NavParams} from 'ionic-framework/ionic';
 import {Quiz, IQuizSet, IGame, IGameEntry} from '../../quiz/controller';
 import {AudioControl} from '../../quiz/audio';
@@ -44,11 +45,11 @@ export class QuizPage {
     private nav: NavController;
 
 
-    constructor(storageService: StorageService, nav: NavController, navParams: NavParams) {
+    constructor(storageService: StorageService, nav: NavController, navParams: NavParams, http: Http) {
         this.nav = nav;
         this.storageService = storageService;
         this.game = <IGame>navParams.get("game");
-        this.quizSet = Quiz.createQuizSet(this.game, storageService.getNumberOfRounds());
+        this.quizSet = Quiz.createQuizSet(this.game, http, storageService.getNumberOfRounds());
     }
 
     onClick(no:number) {

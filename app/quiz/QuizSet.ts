@@ -1,6 +1,8 @@
+import {Http} from 'angular2/http'
 import {StorageService} from './storage-service'
 import {IGame, IQuizSet, IGameEntry} from "./interfaces";
 import {GenerateQuizSet} from "./GenerateQuizSet";
+import {ApiCalls} from "./ApiCalls";
 
 /**
  * The Quiz Set provide a number of Games.
@@ -13,6 +15,10 @@ export class QuizSet implements  IQuizSet {
      */
     GameId:string;
 
+    /**
+     * For transmitting stats to server
+     */
+    http: Http;
     /**
      * Tracking the wins over a game.
      * @type {number}
@@ -97,8 +103,9 @@ export class QuizSet implements  IQuizSet {
      * @param game
      * @param numberOfGames
      */
-    constructor(game: IGame, numberOfGames:number) {
+    constructor(game: IGame, numberOfGames:number, http: Http) {
         this.GameId = game.id;
+        this.http = http;
 
         this.NumberOfGames = numberOfGames || this.NumberOfGames;
         //The number of games need be lower then the game set itself.
@@ -107,7 +114,7 @@ export class QuizSet implements  IQuizSet {
             //provide every game entry as quiz round.
             this.NumberOfGames = game.GamesSet.length;
         }
-        new GenerateQuizSet(this, game.GamesSet, function(){
+        new GenerateQuizSet(this, game.GamesSet, () => {
             this.nextQuestion();
         });
 
@@ -126,6 +133,8 @@ export class QuizSet implements  IQuizSet {
         }
         storageService.increaseCounter(this.GameId,
             this.Set[this.CrtQuestion][no].id, won);
+
+        ApiCalls.postQuizRound(this.http, this);
     }
 
     public nextQuestion():boolean {

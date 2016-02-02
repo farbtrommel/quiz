@@ -1,6 +1,8 @@
 import QuizData = require('./data');
 import {IGame, IGameEntry, IQuizSet} from './interfaces';
 import {QuizSet} from "./QuizSet";
+import {Http} from 'angular2/http'
+
 
 export class Quiz {
     static getGames(): IGame[] {
@@ -15,13 +17,13 @@ export class Quiz {
         }
     }
 
-    static createQuizSetByGameId(gameId: string, numberOfGames?: number): IQuizSet {
+    static createQuizSetByGameId(gameId: string, http: Http, numberOfGames?: number): IQuizSet {
         var gameSet:IGame = Quiz.getGameSetById(gameId);
-        return new QuizSet(gameSet, numberOfGames);
+        return new QuizSet(gameSet, numberOfGames, http);
     }
 
-    static createQuizSet(game: IGame, numberOfGames?: number): IQuizSet {
-        return new QuizSet(game, numberOfGames);
+    static createQuizSet(game: IGame, http: Http, numberOfGames?: number): IQuizSet {
+        return new QuizSet(game, numberOfGames, http);
     }
 }
 

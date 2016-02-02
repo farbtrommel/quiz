@@ -13,8 +13,9 @@ export class GenerateQuizSet {
 
     constructor(quizSet: QuizSet, gameSet:IGameEntry[], callback: () => void) {
         this.quizSet = quizSet;
-        this.createSet(gameSet);
         this.callback = callback;
+
+        this.createSet(gameSet);
     }
 
     /**
