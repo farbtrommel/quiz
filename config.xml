@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>V2 Test</name>
-    <description>An Ionic Framework and Cordova project.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+<widget id="de.farbtrommel.quiz" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Vogel Audio Quiz</name>
+    <description>Animal audio quiz.</description>
+    <author email="simon@farbtrommel.de" href="http://www.farbtrommel.de/">Farbtrommel</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
@@ -28,4 +28,5 @@
     </feature>
     <plugin name="cordova-plugin-inappbrowser" spec="https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git" />
     <plugin name="cordova-sqlite-storage" spec="^0.7.14" />
+    <plugin name="cordova-plugin-media" spec="~2.1.0" />
 </widget>

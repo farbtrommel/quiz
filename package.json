@@ -1,13 +1,18 @@
 {
   "dependencies": {
     "angular2": "2.0.0-beta.0",
+    "clean-css": "^3.4.9",
+    "cordova-uglify": "^0.2.3",
     "easyimage": "^2.1.0",
     "es6-promise": "3.0.2",
     "es6-shim": "0.33.13",
+    "imagemin": "^4.0.0",
     "ionic-framework": "2.0.0-alpha.48",
+    "ng-annotate": "^1.2.1",
     "reflect-metadata": "0.1.2",
     "request": "^2.67.0",
     "rxjs": "5.0.0-beta.0",
+    "uglify-js": "^2.6.1",
     "zone.js": "0.5.10"
   },
   "devDependencies": {
