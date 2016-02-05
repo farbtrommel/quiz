@@ -5,7 +5,7 @@ import {QuizSet} from "./QuizSet";
 /**
  * Class to generate random quiz sets based on IGame.GamesSet
  */
-export class GenerateQuizSet {
+export class QuizSetGenerate {
 
     private quizSet: QuizSet;
     private excludeGameEntries:string[] = [];
@@ -28,7 +28,7 @@ export class GenerateQuizSet {
             for (var s=0; s < 4; s++) {
                 quizRound.push(this.chooseRandomElement(gameSet));
             }
-            var correct = GenerateQuizSet.chooseCorrectAnswer();
+            var correct = QuizSetGenerate.chooseCorrectAnswer();
             this.quizSet.CorrectAnswer.push(correct);
             this.excludeGameEntries.push(quizRound[correct].id);
             this.quizSet.Set.push(quizRound);
