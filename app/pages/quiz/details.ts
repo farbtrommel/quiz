@@ -13,6 +13,8 @@ export class Details {
     private viewCtrl: ViewController;
     private playSound: boolean = false;
 
+    private quotation: boolean = false;
+
     constructor(navController:NavController, navParams: NavParams, platform: Platform, viewCtrl: ViewController) {
         this.viewCtrl = viewCtrl;
         if (platform.is('android')) {
@@ -30,8 +32,18 @@ export class Details {
         this.viewCtrl.dismiss();
     }
 
-    openLink(url:string) {
-        window.open(url, "_system");
+    toggleQuotation() {
+        this.quotation = !this.quotation;
+    }
+
+
+    openLink(url:string, otherwise:string) {
+        if (url && url.startsWith("http")) {
+            window.open(url, "_system");
+        } else if (otherwise && otherwise.startsWith("http")) {
+            window.open(otherwise, "_system");
+        }
+        return true;
     }
 
     playSound() {

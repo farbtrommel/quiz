@@ -4,6 +4,7 @@ import {StorageService} from '../../quiz/storage-service'
 import {GameStats, GameStatsEntry} from '../../quiz/GameStats'
 import {Quiz, IGame, IGameEntry} from '../../quiz/controller';
 import {Details} from '../quiz/details'
+import {MyApp} from "../../app";
 
 
 @Component({
@@ -43,14 +44,13 @@ export class StatsEntry{
 export class StatsPage {
     storageService: StorageService;
     nav: NavController;
-    title: string = "Stadtnatur entdecken";
+    title: string = MyApp.title;
     Games: IGame[];
     gameSet: IGameEntry[];
-    gameSetById: {[id:string]: IGameEntry} = {};
-    ratedSet: GameStatsEntry;
     topSet: IGameEntry[];
     flopSet: IGameEntry[];
     unratedSet: IGameEntry[];
+    gameSetById: {[id:string]: IGameEntry} = {};
     gameNo:number = 0;
     gameId:string;
     showDetails:boolean = true;
@@ -69,43 +69,15 @@ export class StatsPage {
         this.gameId = this.Games[this.gameNo].id;
         if (this.showDetails){
             this.title = this.Games[this.gameNo].Name;
-            this.ratedSet = storageService.getGameStats().getGameById(this.gameId);
             this.initializeItems();
             for (var i in this.gameSet) {
                 this.gameSetById[this.gameSet[i].id] = this.gameSet[i];
             }
-            this.topSet = this.sort("wins");
-            this.flopSet = this.sort("losses");
-            this.unratedSet = this.sort("unrated");
+            this.topSet = storageService.getGameStats().sort(this.gameId, "wins");
+            this.flopSet = storageService.getGameStats().sort(this.gameId, "losses");
+            this.unratedSet = storageService.getGameStats().sort(this.gameId, "unrated");
         }
 
-    }
-
-    sort(sortBy:string) {
-        var sortable = [];
-        for (var key in this.ratedSet.getStats()) {
-            sortable.push([key, this.ratedSet.getEntry(key)])
-        }
-        var result = [];
-        if (sortBy == "unrated") {
-            for (var i=0; i < sortable.length; i++){
-                if (sortable[i][1].wins == 0 && sortable[i][1].losses == 0) {
-                    result.push(sortable[i])
-                }
-            }
-        } else {
-            sortable.sort((a, b) => {
-                return a[1][sortBy] - b[1][sortBy]
-            });
-
-            for (var i=0; i < sortable.length; i++){
-                if (sortable[i][1][sortBy] > 0) {
-                    result.push(sortable[i])
-                }
-            }
-        }
-
-        return result;
     }
 
     initializeItems() {

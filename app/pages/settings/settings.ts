@@ -1,10 +1,12 @@
 import {Page, Alert, NavController, NavParams} from 'ionic-framework/ionic';
 import {StorageService} from '../../quiz/storage-service';
+import {MyApp} from "../../app";
 
 @Page({
   templateUrl: 'build/pages/settings/settings.html',
 })
 export class SettingsPage {
+    private title: string = MyApp.title;
     private nav:NavController;
     private storageService: StorageService;
     private expertMode: boolean;

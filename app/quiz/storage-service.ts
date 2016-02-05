@@ -23,7 +23,7 @@ export class StorageService {
             this.stats = new GameStats(this.storage, JSON.parse(data)) || new GameStats(this.storage)
         });
         this.storage.get('expertMode').then(data => {
-            this.expertMode = data || false
+            this.expertMode = (data === "true");
         });
         this.storage.get('numberOfRounds').then(data => {
             this.numberOfRounds = parseInt(<string>data) || 10

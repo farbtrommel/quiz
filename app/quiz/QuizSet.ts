@@ -1,7 +1,8 @@
+import {Inject} from 'angular2/core'
 import {Http} from 'angular2/http'
 import {StorageService} from './storage-service'
 import {IGame, IQuizSet, IGameEntry} from "./interfaces";
-import {GenerateQuizSet} from "./GenerateQuizSet";
+import {QuizSetGenerate} from "./QuizSetGenerate";
 import {ApiCalls} from "./ApiCalls";
 
 /**
@@ -20,6 +21,11 @@ export class QuizSet implements  IQuizSet {
      */
     http: Http;
     /**
+     * Reference to Storage Service.
+     */
+    storageService: StorageService;
+
+    /**
      * Tracking the wins over a game.
      * @type {number}
      */
@@ -35,13 +41,7 @@ export class QuizSet implements  IQuizSet {
      * Given answer in a round by array id.
      * @type {Array}
      */
-    Answers: number[] = [];
-
-    /**
-     * Given answer in a round by GameEntry.id.
-     * @type {Array}
-     */
-    AnswersId: string[] = [];
+    Answers: IGameEntry[] = [];
 
     /**
      * Time at begin a question.
@@ -77,62 +77,59 @@ export class QuizSet implements  IQuizSet {
      * @type {number}
      */
     CrtQuestion:number = -1;
-    /**
-     * The id of GameEntry item which is correct.
-     * @type {string}
-     */
-    CrtCorrectAnswerId:string = "";
+
     /**
      * The pointer of GameEntry item which is correct.
      * @type {number}
      */
-    CrtCorrectAnswer:number = 0;
+    CrtCorrectAnswer:IGameEntry;
     /**
-     * History of given answers.
+     * List of the correct answer
      * @type {Array}
      */
-    CorrectAnswer:Number[] = [];
+    CorrectAnswer:IGameEntry[] = [];
     /**
      * Number of asks questions.
      * @type {number}
      */
     NumberOfGames:number;
 
+
     /**
      * Init. game quiz set.
-     * @param game
-     * @param numberOfGames
+     * @param game Game Object for what the quiz will generate.
+     * @param storageService Reference to storage. //TODO: @Inject()
+     * @param http Reference to http. //TODO: @Inject()
      */
-    constructor(game: IGame, numberOfGames:number, http: Http) {
+    constructor(game: IGame, storageService: StorageService, http: Http) {
         this.GameId = game.id;
         this.http = http;
+        this.storageService = storageService;
 
-        this.NumberOfGames = numberOfGames || this.NumberOfGames;
+        this.NumberOfGames = this.storageService.getNumberOfRounds() || this.NumberOfGames;
         //The number of games need be lower then the game set itself.
         if (this.NumberOfGames > game.GamesSet.length) {
             //if number of games higher then the game set itself.
             //provide every game entry as quiz round.
             this.NumberOfGames = game.GamesSet.length;
         }
-        new GenerateQuizSet(this, game.GamesSet, () => {
+        new QuizSetGenerate(this, game.GamesSet, storageService, () => {
             this.nextQuestion();
         });
 
     }
 
-    public answerQuestion(no:number, storageService: StorageService): void {
+    public answerQuestion(item:IGameEntry, no:number): void {
         this.EndRound = new Date();
         this.RoundFinished = true;
-        this.Answers.push(no);
-        this.AnswersId.push(this.Set[this.CrtQuestion][no].id);
-        var won = no == this.CrtCorrectAnswer;
+        this.Answers.push(item);
+        var won = (item.id === this.CrtCorrectAnswer.id);
         if (won) {
             this.wins++;
         } else {
             this.losses++;
         }
-        storageService.increaseCounter(this.GameId,
-            this.Set[this.CrtQuestion][no].id, won);
+        this.storageService.increaseCounter(this.GameId, item.id, won);
 
         ApiCalls.postQuizRound(this.http, this);
     }
@@ -147,7 +144,6 @@ export class QuizSet implements  IQuizSet {
             return false;
         }
         this.CrtCorrectAnswer = this.CorrectAnswer[this.CrtQuestion];
-        this.CrtCorrectAnswerId = this.Set[this.CrtQuestion][this.CrtCorrectAnswer].id;
         this.RoundFinished = false;
         return true;
     }

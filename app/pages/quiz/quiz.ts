@@ -23,14 +23,6 @@ export class QuizQuestion{
     constructor(element: ElementRef){
         this.element = element;
     }
-
-    onClick(item: IGameEntry) {
-        if (item.id == this.quizset.CrtCorrectAnswerId) {
-            console.log('right');
-        } else {
-            console.log('wrong');
-        }
-    }
 }
 
 @Page({
@@ -49,18 +41,20 @@ export class QuizPage {
         this.nav = nav;
         this.storageService = storageService;
         this.game = <IGame>navParams.get("game");
-        this.quizSet = Quiz.createQuizSet(this.game, http, storageService.getNumberOfRounds());
+        this.quizSet = Quiz.createQuizSet(this.game, storageService, http);
     }
 
     onClick(no:number) {
+        var item: IGameEntry = this.quizSet.Set[this.quizSet.CrtQuestion][no];
         if (this.quizSet.RoundFinished) {
             return;
         }
-        this.quizSet.answerQuestion(no, this.storageService);
+        this.quizSet.answerQuestion(item, no);
 
         this.timeout = setTimeout(() => {
             if (!this.quizSet.nextQuestion()) {
-                this.nav.setPages([HomePage,{componentType: Summary, params:{"quizSet": this.quizSet}}], {"animate": true});
+                this.nav.setPages([HomePage, {componentType: Summary, params:{"quizSet": this.quizSet}}],
+                    {"animate": true});
             }
         }, 1500);
 

@@ -60,9 +60,15 @@
                 Alle Tiere
             </ion-list-header>
             -->
-            <ion-searchbar [(ngModel)]="searchQuery" (input)="getItems($event)" *ngIf="showDetails && filterOption=='list'"></ion-searchbar>
+            <ion-searchbar
+                    [(ngModel)]="searchQuery"
+                    (input)="getItems($event)"
+                    *ngIf="showDetails && filterOption=='list'"></ion-searchbar>
             <ion *ngFor="#entry of gameSet">
-                <stats-entry [item]="gameSetById[entry.id]" [game]="Games[gameNo]" [stats]="ratedSet.getEntry(entry.id)"></stats-entry>
+                <stats-entry
+                        [item]="gameSetById[entry.id]"
+                        [game]="Games[gameNo]"
+                        [stats]="storageService.getGameStats().getStats(gameNo, entry.id)"></stats-entry>
             </ion>
             <ion-item *ngIf="gameSet.length == 0">Keine Einträge</ion-item>
         </ion-list>

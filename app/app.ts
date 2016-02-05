@@ -11,6 +11,11 @@ import {StorageService} from './quiz/storage-service';
     config: {}
 })
 export class MyApp {
+    /**
+     * Default Title for all sites.
+     * @type {string}
+     */
+    static title: string = "StadtNatur Quiz";
     root: any;
     storageService: StorageService;
 

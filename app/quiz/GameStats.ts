@@ -60,6 +60,40 @@ export class GameStats {
     }
 
     /**
+     * Sorted list by
+     * @param gameId Game Id
+     * @param sortBy "wins", "losses", "unrated"
+     * @returns {Array}
+     */
+    sort(gameId: string, sortBy:string) {
+        var set: GameStatsEntry = this.getGameById(gameId);
+        var sortable = [];
+        for (var key in set.getStats()) {
+            sortable.push([key, set.getEntry(key)])
+        }
+        var result = [];
+        if (sortBy == "unrated") {
+            for (var i=0; i < sortable.length; i++){
+                if (sortable[i][1].wins == 0 && sortable[i][1].losses == 0) {
+                    result.push(sortable[i])
+                }
+            }
+        } else {
+            sortable.sort((a, b) => {
+                return a[1][sortBy] - b[1][sortBy]
+            });
+
+            for (var i=0; i < sortable.length; i++){
+                if (sortable[i][1][sortBy] > 0) {
+                    result.push(sortable[i])
+                }
+            }
+        }
+
+        return result;
+    }
+
+    /**
      * Flat list
      */
     convert():[{[gameEntryId:string]: {won:number, lost: number, gameId: string, entryId: string}}] {

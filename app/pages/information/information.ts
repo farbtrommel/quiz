@@ -2,11 +2,13 @@ import {Page, NavController, NavParams, Modal, ViewController, Platform} from 'i
 import {CredentialsPage} from './credentials';
 import {PrivacyPage} from './privacy';
 import {ImprintPage} from './imprint';
+import {MyApp} from "../../app";
 
 @Page({
     templateUrl: 'build/pages/information/information.html'
 })
 export class InformationPage {
+    private title: string = MyApp.title;
     private nav: NavController;
 
 

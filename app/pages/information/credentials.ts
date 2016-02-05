@@ -37,6 +37,15 @@ export class CredentialsPage {
         }
     }
 
+    openLink(url:string, otherwise:string) {
+        if (url && url.startsWith("http")) {
+            window.open(url, "_system");
+        } else if (otherwise && otherwise.startsWith("http")) {
+            window.open(otherwise, "_system");
+        }
+        return true;
+    }
+
     getItems(searchbar):void {
         // Reset items back to all of the items
         this.initializeItems();

@@ -25,7 +25,39 @@
             <h1> {{ item.Name }} </h1>
             <h2> {{ item.Sciname }} </h2>
             <br/>
-            <p> {{ item.Abstract }} </p>
+            <p> {{ item.Abstract.Text }} </p>
+
+            <div *ngIf="quotation">
+                <br/>
+                <p *ngIf="item.Abstract.Quotation">
+                    <a (click)="openLink(item.Abstract.Author.Link, item.Abstract.Link)">
+                    Quelle: {{ item.Abstract.Quotation }}
+                    </a>
+                </p>
+                <br/>
+                <p>
+                    <a (click)="openLink(item.Image.Author.Link, item.Image.Link)">
+                        <ion-icon name="image"></ion-icon> &nbsp;{{ item.Image.Author.Name }}
+                    </a>
+                </p>
+                <p>
+                    <a (click)="openLink(item.Image.Licence.Link, item.Image.Link)">
+                        &copy;&nbsp; {{ item.Image.Licence.Name }}
+                    </a>
+                </p>
+                <br/>
+                <p>
+                    <a (click)="openLink(item.Audio.Author.Link, item.Audio.Link)">
+                        <ion-icon name="musical-notes"></ion-icon>&nbsp;{{ item.Audio.Author.Name }}
+                    </a>
+                </p>
+                <p>
+                    <a (click)="openLink(item.Image.Author.Link, item.Audio.Link)">
+                        &copy;&nbsp; {{ item.Audio.Licence.Name }}
+                    </a>
+                </p>
+            </div>
+
         </ion-card-content>
 
         <ion-item>
@@ -38,6 +70,10 @@
             <button primary clear item-left (click)="openLink(item.Audio.Link)">
                 <ion-icon name='musical-notes'></ion-icon>
             </button>
+            <button primary clear item-right (click)="toggleQuotation()">
+                <ion-icon name='quote'></ion-icon>
+            </button>
+
         </ion-item>
 
     </ion-card>

@@ -14,11 +14,18 @@ export interface IGameEntry {
     id: string;
     Name: string;
     Sciname: string;
-    Abstract: string;
+    Abstract: IAbstract;
     Link: string;
-    Categories: string;
+    Categories: number[];
     Audio: ISourceObject;
     Image: ISourceObject;
+}
+
+export interface IAbstract {
+    Text: string;
+    Quotation: string;
+    Author: ILink;
+    Licence: ILink;
 }
 
 export interface IQuizSet {
@@ -27,16 +34,14 @@ export interface IQuizSet {
     NumberOfGames: number;
     wins:number;
     losses:number;
-    CorrectAnswer:Number[];
+    CorrectAnswer:IGameEntry[];
     //Current Game Set
     CrtQuestion: number;
-    CrtCorrectAnswerId: string;
-    CrtCorrectAnswer: number;
+    CrtCorrectAnswer: IGameEntry;
     StartRound:Date;
     EndRound:Date;
-    Answers: number[];
-    AnswersId: string[];
-    answerQuestion(no:number, storageService:StorageService): void
+    Answers: IGameEntry[];
+    answerQuestion(item: IGameEntry, no:number): void
     nextQuestion():boolean;
 
     RoundFinished: boolean;
