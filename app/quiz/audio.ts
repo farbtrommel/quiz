@@ -92,9 +92,9 @@ export class AudioControl {
         } else {
             if(this.media) {
                 this.media.stop();
-                this.isPlaying = false;
             }
         }
+        this.isPlaying = false;
     }
 
     play() {
@@ -104,8 +104,8 @@ export class AudioControl {
             var mp3URL = this.getMediaURL(this.src);
             this.media = new Media(mp3URL, msg => this.mediaSuccess(msg), err => this.mediaError(err));
             this.media.play();
-            this.isPlaying = true;
         }
+        this.isPlaying = true;
     }
 
     getMediaURL(s) {

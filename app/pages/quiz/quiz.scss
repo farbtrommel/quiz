@@ -11,6 +11,7 @@
 
   .quiz-question-row {
     margin: auto auto;
+    display: flex;
     quiz-question {
       float: right;
     }

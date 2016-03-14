@@ -18,6 +18,6 @@ export class HomePage {
     }
 
     startGame(game:IGame) {
-        this.nav.setRoot(QuizPage, {"game": game}, {"animate": true});
+        this.nav.push(QuizPage, {"game": game}, {"animate": true}, null);
     }
 }

@@ -17,9 +17,11 @@
         <ion-segment-button value="flops">
             <ion-icon name="thumbs-down"></ion-icon>
         </ion-segment-button>
+        <!--
         <ion-segment-button value="unrated">
             <ion-icon name="star-outline"></ion-icon>
         </ion-segment-button>
+        -->
     </ion-segment>
 </ion-toolbar>
 
@@ -107,6 +109,7 @@
             </ion>
             <ion-item *ngIf="flopSet.length == 0">Keine Einträge</ion-item>
         </ion-list>
+        <!--
         <ion-list *ngSwitchWhen="'unrated'">
             <ion *ngFor="#entry of unratedSet">
                 <stats-entry
@@ -117,6 +120,7 @@
             </ion>
             <ion-item *ngIf="unratedSet.length == 0">Keine Einträge</ion-item>
         </ion-list>
+        -->
     </div>
 
 

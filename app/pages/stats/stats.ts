@@ -82,7 +82,7 @@ export class StatsPage {
     gameSet: IGameEntry[];
     topSet: IGameEntry[];
     flopSet: IGameEntry[];
-    unratedSet: IGameEntry[];
+    //unratedSet: IGameEntry[];
     gameSetById: {[id:string]: IGameEntry} = {};
     gameNo:number = 0;
     gameId:string;
@@ -92,7 +92,7 @@ export class StatsPage {
     isAndroid:boolean;
 
     constructor(storageService: StorageService, nav: NavController, navParams: NavParams, platform: Platform) {
-        this.title = "Stadtnatur Quiz";
+        this.title = "StadtNatur Quiz";
         this.isAndroid = platform.is('android');
         this.gameNo = navParams.get("gameNo") || 0;
         this.showDetails= navParams.get("showDetails") || false;
@@ -108,7 +108,7 @@ export class StatsPage {
             }
             this.topSet = storageService.getGameStats().sort(this.gameId, "wins");
             this.flopSet = storageService.getGameStats().sort(this.gameId, "losses");
-            this.unratedSet = storageService.getGameStats().sort(this.gameId, "unrated");
+            //this.unratedSet = storageService.getGameStats().sort(this.gameId, "unrated");
         }
 
     }

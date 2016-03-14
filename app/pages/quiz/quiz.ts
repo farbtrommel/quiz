@@ -1,4 +1,4 @@
-import {Component, Directive, View, ElementRef, Input} from 'angular2/core';
+import {Component, Directive, View, ElementRef, Input, ViewChild} from 'angular2/core';
 import {Http} from 'angular2/http'
 import {Page, NavController, NavParams} from 'ionic-framework/ionic';
 import {Quiz, IQuizSet, IGame, IGameEntry} from '../../quiz/controller';
@@ -36,6 +36,8 @@ export class QuizPage {
     private timeout;
     private nav: NavController;
 
+    @ViewChild(AudioControl) audioController: AudioControl;
+
 
     constructor(storageService: StorageService, nav: NavController, navParams: NavParams, http: Http) {
         this.nav = nav;
@@ -57,6 +59,20 @@ export class QuizPage {
                     {"animate": true});
             }
         }, 1500);
+
+    }
+
+    onPageDidEnter() {
+        this.audioController.play();
+    }
+
+    onPageWillLeave () {
+        try {
+            this.nav.pop();
+            this.audioController.stop();
+        } catch (e) {
+
+        }
 
     }
 }

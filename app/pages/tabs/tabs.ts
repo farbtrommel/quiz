@@ -1,4 +1,5 @@
-import {Page} from 'ionic-framework/ionic';
+import {Page, Tabs} from 'ionic-framework/ionic';
+import {ViewChild} from 'angular2/core';
 import {HomePage} from '../home/home';
 import {SettingsPage} from '../settings/settings';
 import {StatsPage} from '../stats/stats';
@@ -9,6 +10,8 @@ import {InformationPage} from '../information/information';
   templateUrl: 'build/pages/tabs/tabs.html'
 })
 export class TabsPage {
+  @ViewChild('mainTabs') tabs:Tabs;
+
   private tab1Root;
   private tab2Root;
   private tab3Root;
