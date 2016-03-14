@@ -14,10 +14,10 @@ export class QuizSetGenerate {
      */
     private quizSet: QuizSet;
     private flopSet: IGameEntry[];
-    private pickRateFlop: number = 0.2;
+    private pickRateFlop: number = 0.6;
     private pickedFlop: number = 0;
     private unratedSet: IGameEntry[];
-    private pickRateUnrated: number = 0.8;
+    private pickRateUnrated: number = 0.9;
     private pickedUnrated: number = 0;
     private gameSet: IGameEntry[];
     private gameSetById: {[id:string]: IGameEntry} = {};
@@ -87,6 +87,10 @@ export class QuizSetGenerate {
                 this.cleanGameEntryList(element);
             }
         }
+
+        //Shuffle the correct answer set.
+        //To hiding the order of picked unrated and flops item.
+        QuizSetGenerate.shuffle(this.quizSet.CorrectAnswer);
 
         //Create four quiz questions. Only need to add 3 other GameEntries.
         //The other GameEntries will selected by GameEntry.Category

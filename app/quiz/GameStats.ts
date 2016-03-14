@@ -113,11 +113,12 @@ export class GameStats {
 
         var i:number=0;
         while (i < sortable.length){
-            if (isNaN(sortable[i][2]) || sortable[i][2] == 0) {
-                sortable.splice(i, 1);
-            } else {
+            if (isNaN(sortable[i][2])){//} || sortable[i][2] == 0) {
+                //sortable.splice(i, 1);
+                sortable[i][2] = 0;
+            }// else {
                 i++;
-            }
+            //}
         }
 
         if (sortBy == "wins") {

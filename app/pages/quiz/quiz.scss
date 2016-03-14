@@ -37,7 +37,8 @@
   }
   &.quiz-extra-background {
     background-image: url("../../img/home.jpg");
-    background-size: 150% 120%;
+//    background-size: 150% 120%;
+    background-position: 20% 20%;
   }
 
   .mark-as-right:before, .mark-as-wrong:before {
