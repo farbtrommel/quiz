@@ -1,5 +1,6 @@
 import {Http} from 'angular2/http';
 import {IQuizSet} from "./controller";
+import {StorageService} from "./storage-service";
 
 /**
  * This class contains the logic to create messages to communicate with a rest service.
@@ -14,8 +15,8 @@ export class ApiCalls {
      * @param http
      * @param quizSet
      */
-    static postQuizRound(http: Http, quizSet: IQuizSet) {
-        if (ApiCalls.API_ACTIVE && http) {
+    static postQuizRound(http: Http, storageService: StorageService, quizSet: IQuizSet) {
+        if (storageService.getSendStats() && ApiCalls.API_ACTIVE && http) {
             http.post(ApiCalls.ENDPOINT + ApiCalls.QUIZ_ROUND, JSON.stringify({
                 "GameId": quizSet.GameId,
                 "Questions": [

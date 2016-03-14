@@ -60,6 +60,34 @@ export class GameStats {
     }
 
     /**
+     *
+     * @param gameId
+     * @param entryId
+     * @returns {number}
+     */
+    getStars(gameId?:string, entryId?:string): number {
+        if (typeof gameId  !== "undefined" && typeof entryId !== "undefined") {
+            var gameStats = this.getGameById(gameId).getEntry(entryId);
+            return GameStats.calcStars(gameStats.wins, gameStats.losses);
+        } else if (typeof gameId !== "undefined") {
+            var gameStats = this.getGameById(gameId).getTotalStat();
+            return GameStats.calcStars(gameStats.wins, gameStats.losses);
+        } else {
+            return GameStats.calcStars(this.wins, this.losses);
+        }
+    }
+
+    /**
+     *
+     * @param wins
+     * @param losses
+     * @returns {number}
+     */
+    static calcStars(wins: number, losses: number) {
+        return Math.floor((wins / (wins + losses)) * 10);
+    }
+
+    /**
      * Sorted list by
      * @param gameId Game Id
      * @param sortBy "wins", "losses", "unrated"
@@ -69,28 +97,42 @@ export class GameStats {
         var set: GameStatsEntry = this.getGameById(gameId);
         var sortable = [];
         for (var key in set.getStats()) {
-            sortable.push([key, set.getEntry(key)])
+            var stats = set.getEntry(key);
+            sortable.push([key, stats, GameStats.calcStars(stats.wins, stats.losses)])
         }
-        var result = [];
+
         if (sortBy == "unrated") {
+            var result = [];
             for (var i=0; i < sortable.length; i++){
-                if (sortable[i][1].wins == 0 && sortable[i][1].losses == 0) {
+                if (sortable[i][2] == 0 || isNaN(sortable[i][2])) {
                     result.push(sortable[i])
                 }
             }
-        } else {
-            sortable.sort((a, b) => {
-                return a[1][sortBy] - b[1][sortBy]
-            });
+            return result;
+        }
 
-            for (var i=0; i < sortable.length; i++){
-                if (sortable[i][1][sortBy] > 0) {
-                    result.push(sortable[i])
-                }
+        var i:number=0;
+        while (i < sortable.length){
+            if (isNaN(sortable[i][2]) || sortable[i][2] == 0) {
+                sortable.splice(i, 1);
+            } else {
+                i++;
             }
         }
 
-        return result;
+        if (sortBy == "wins") {
+            sortable.sort((a, b) => {
+                return b[2] - a[2];
+            });
+        } else if (sortBy == "losses") {
+            sortable.sort((a, b) => {
+                return a[2] - b[2];
+            });
+        }
+
+
+
+        return sortable;
     }
 
     /**

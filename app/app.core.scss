@@ -13,13 +13,21 @@
 @import 'pages/stats/stats';
 @import 'pages/information/information';
 
-.mark-as-right:before, .mark-as-wrong:before{
-  font-size: 3em;
-  vertical-align: -0.26em;
-}
 .mark-as-right {
   color: green;
 }
 .mark-as-wrong {
   color: red;
 }
+
+ion-card.max-width {
+  max-width: 310px;
+  margin: 2em auto;
+}
+
+/*
+ion-content {
+  background-image: url("../../img/home.jpg");
+  background-size: 150% 120%;
+}
+*/

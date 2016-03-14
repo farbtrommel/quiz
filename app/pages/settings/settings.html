@@ -3,10 +3,18 @@
 </ion-navbar>
 
 <ion-content class="settings">
-    <button ion-item (click)="openPrompt()">
-        Anzahl der Runden <ion-badge item-right>{{ storageService.getNumberOfRounds() }}</ion-badge>
-    </button>
-    <ion-toggle checked="{{ expertMode }}" (click)="clickExpertMode()">
-        Experten Modus
-    </ion-toggle>
+    <ion-list>
+        <button ion-item (click)="openPrompt()">
+            Anzahl der Runden <ion-badge item-right>{{ storageService.getNumberOfRounds() }}</ion-badge>
+        </button>
+        <ion-toggle id="settingsExpertMode" [checked]="expertMode" (click)="clickExpertMode()">
+            Experten Modus
+        </ion-toggle>
+        <ion-toggle id="settingsShowCorrectAnswer" [checked]="showCorrectAnswer" (click)="clickShowCorrectAnswer()">
+            Zeige richtige Antwort
+        </ion-toggle>
+        <ion-toggle id="settingsSendStats" [checked]="sendStats" (click)="clickSendStats()">
+            Sende Statsitik
+        </ion-toggle>
+    </ion-list>
 </ion-content>

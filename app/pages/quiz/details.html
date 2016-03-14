@@ -1,6 +1,6 @@
 <ion-toolbar class="android-attr">
     <ion-title>
-        Details
+        {{ item.Name }}
     </ion-title>
     <ion-buttons start>
         <button (click)="dismiss()" clear *ngIf=" currentPlatform === 'ios' ">
@@ -14,7 +14,7 @@
 
 
 <ion-content class="has-header components-demo cards-bg quiz">
-    <ion-card>
+    <ion-card class="max-width">
         <img src="./assets/quiz/{{ gameId }}/thumbnail-{{ item.id }}.jpg">
         <button fab fab-right class="fab-audio">
             <ion-audio src="./assets/quiz/{{ gameId }}/audio-{{item.id}}.mp3"
@@ -28,7 +28,7 @@
             <p> {{ item.Abstract.Text }} </p>
 
             <div *ngIf="quotation">
-                <br/>
+                <br *ngIf="item.Abstract.Quotation"/>
                 <p *ngIf="item.Abstract.Quotation">
                     <a (click)="openLink(item.Abstract.Author.Link, item.Abstract.Link)">
                     Quelle: {{ item.Abstract.Quotation }}

@@ -131,7 +131,7 @@ export class QuizSet implements  IQuizSet {
         }
         this.storageService.increaseCounter(this.GameId, item.id, won);
 
-        ApiCalls.postQuizRound(this.http, this);
+        ApiCalls.postQuizRound(this.http, this.storageService, this);
     }
 
     public nextQuestion():boolean {

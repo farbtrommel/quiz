@@ -80,6 +80,9 @@ export class GameStatsEntry {
         return this.stats;
     }
 
+    getTotalStat():[{wins:number, losses:number}] {
+        return {wins: this.wins, losses: this.losses};
+    }
     /**
      * Get entry by id.
      * @param entryId

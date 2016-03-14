@@ -10,16 +10,33 @@ export class SettingsPage {
     private nav:NavController;
     private storageService: StorageService;
     private expertMode: boolean;
+    private showCorrectAnswer: boolean;
+    private sendStats: boolean;
 
     constructor(storageService: StorageService, nav: NavController, navParams: NavParams) {
         this.nav = nav;
         this.storageService = storageService;
         this.expertMode = this.storageService.getExpertMode();
+        this.showCorrectAnswer = this.storageService.getShowCorrectAnswer();
+        this.sendStats = this.storageService.getSendStats();
+    }
+
+    clickShowCorrectAnswer() {
+        console.log("toggle show correct answer");
+        this.showCorrectAnswer = !this.showCorrectAnswer;
+        this.storageService.setShowCorrectAnswer(this.showCorrectAnswer)
+    }
+
+    clickSendStats() {
+        console.log("toggle send stats mode");
+        this.sendStats = !this.sendStats;
+        this.storageService.setSendStats(this.sendStats)
     }
 
     clickExpertMode() {
         console.log("toggle expert mode");
-        this.storageService.setExpertMode(!this.expertMode)
+        this.expertMode = !this.expertMode;
+        this.storageService.setExpertMode(this.expertMode)
     }
 
     openPrompt() {

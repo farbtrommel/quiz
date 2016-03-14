@@ -1,4 +1,20 @@
 .quiz {
+  &.quiz-extra-background {
+    background-image: url("../../img/home.jpg");
+    background-size: 150% 120%;
+  }
+
+  .mark-as-right:before, .mark-as-wrong:before {
+    font-size: 3em;
+    vertical-align: -0.26em;
+  }
+
+  .quiz-question-row {
+    margin: auto auto;
+    quiz-question {
+      float: right;
+    }
+  }
   ion-card-content {
     overflow: hidden;
   }

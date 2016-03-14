@@ -2,19 +2,23 @@
     <ion-title >Quizrunde {{quizSet.CrtQuestion + 1}} / {{quizSet.NumberOfGames}}</ion-title>
 </ion-navbar>
 
-<ion-content class="quiz">
+<ion-content class="quiz quiz-extra-background">
     <div *ngIf="quizSet.CrtCorrectAnswer && quizSet.CrtQuestion < quizSet.NumberOfGames">
         <ion-row>
-            <quiz-question [(quizset)]="quizSet"
-                           [(item)]="quizSet.Set[quizSet.CrtQuestion][0]" (click)="onClick(0)"></quiz-question>
-            <quiz-question [(quizset)]="quizSet"
-                           [(item)]="quizSet.Set[quizSet.CrtQuestion][1]" (click)="onClick(1)"></quiz-question>
+            <div class="quiz-question-row">
+                <quiz-question [(quizset)]="quizSet"
+                               [(item)]="quizSet.Set[quizSet.CrtQuestion][0]" (click)="onClick(0)"></quiz-question>
+                <quiz-question [(quizset)]="quizSet"
+                               [(item)]="quizSet.Set[quizSet.CrtQuestion][1]" (click)="onClick(1)"></quiz-question>
+            </div>
         </ion-row>
         <ion-row>
-            <quiz-question [(quizset)]="quizSet"
-                           [(item)]="quizSet.Set[quizSet.CrtQuestion][2]" (click)="onClick(2)"></quiz-question>
-            <quiz-question [(quizset)]="quizSet"
-                           [(item)]="quizSet.Set[quizSet.CrtQuestion][3]" (click)="onClick(3)"></quiz-question>
+            <div class="quiz-question-row">
+                <quiz-question [(quizset)]="quizSet"
+                               [(item)]="quizSet.Set[quizSet.CrtQuestion][2]" (click)="onClick(2)"></quiz-question>
+                <quiz-question [(quizset)]="quizSet"
+                               [(item)]="quizSet.Set[quizSet.CrtQuestion][3]" (click)="onClick(3)"></quiz-question>
+            </div>
         </ion-row>
         <ion-audio
                 src="./assets/quiz/{{ quizSet.GameId }}/audio-{{quizSet.CrtCorrectAnswer.id}}.mp3"

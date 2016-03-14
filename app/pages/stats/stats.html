@@ -25,19 +25,23 @@
 
 <ion-content class="stats">
     <ion-list *ngIf="!showDetails">
+        <!--
         <ion-item>
             <ion-icon name="checkmark" large class="mark-as-right">&nbsp;:&nbsp;{{ storageService.getGameStats().wins }}</ion-icon>
             <ion-icon name="close" large class="mark-as-wrong" style="float:right;">&nbsp;:&nbsp;{{ storageService.getGameStats().losses }}</ion-icon>
         </ion-item>
+        -->
         <ion *ngFor="#item of Games; #i = index">
             <button ion-item (click)="onClickCategory(item, i)" *ngIf="item.GamesSet.length > 0">
-                <ion-thumbnail item-left>
+                <!-- <ion-thumbnail item-left>
                     <img src="./img/placeholder-home-screen.png"/>
-                </ion-thumbnail>
+                </ion-thumbnail> -->
                 <h2>{{item.Name}}</h2>
+                <stars [value]="storageService.getGameStats().getStars(item.id)"></stars>
+                <!--
                 <ion-icon name="checkmark" class="mark-as-right">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(item.id).wins }}</ion-icon>
                 <ion-icon name="close" class="mark-as-wrong" style="float:right;">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(item.id).losses }}</ion-icon>
-
+                -->
             </button>
         </ion>
     </ion-list>
@@ -68,7 +72,8 @@
                 <stats-entry
                         [item]="gameSetById[entry.id]"
                         [game]="Games[gameNo]"
-                        [stats]="storageService.getGameStats().getStats(gameNo, entry.id)"></stats-entry>
+                        [stats]="storageService.getGameStats().getStats(gameNo, entry.id)"
+                        [stars]="storageService.getGameStats().getStars(gameNo, entry.id)"></stats-entry>
             </ion>
             <ion-item *ngIf="gameSet.length == 0">Keine Einträge</ion-item>
         </ion-list>
@@ -79,7 +84,11 @@
             </ion-list-header>
             -->
             <ion *ngFor="#entry of topSet">
-                <stats-entry [item]="gameSetById[entry[0]]" [game]="Games[gameNo]" [stats]="entry[1]"></stats-entry>
+                <stats-entry
+                        [item]="gameSetById[entry[0]]"
+                        [game]="Games[gameNo]"
+                        [stats]="entry[1]"
+                        [stars]="entry[2]"></stats-entry>
             </ion>
             <ion-item *ngIf="topSet.length == 0">Keine Einträge</ion-item>
         </ion-list>
@@ -90,13 +99,21 @@
             </ion-list-header>
             -->
             <ion *ngFor="#entry of flopSet">
-                <stats-entry [item]="gameSetById[entry[0]]" [game]="Games[gameNo]" [stats]="entry[1]"></stats-entry>
+                <stats-entry
+                        [item]="gameSetById[entry[0]]"
+                        [game]="Games[gameNo]"
+                        [stats]="entry[1]"
+                        [stars]="entry[2]"></stats-entry>
             </ion>
             <ion-item *ngIf="flopSet.length == 0">Keine Einträge</ion-item>
         </ion-list>
         <ion-list *ngSwitchWhen="'unrated'">
             <ion *ngFor="#entry of unratedSet">
-                <stats-entry [item]="gameSetById[entry[0]]" [game]="Games[gameNo]" [stats]="entry[1]"></stats-entry>
+                <stats-entry
+                        [item]="gameSetById[entry[0]]"
+                        [game]="Games[gameNo]"
+                        [stats]="entry[1]"
+                        [stars]="entry[2]"></stats-entry>
             </ion>
             <ion-item *ngIf="unratedSet.length == 0">Keine Einträge</ion-item>
         </ion-list>

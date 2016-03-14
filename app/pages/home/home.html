@@ -4,13 +4,14 @@
 
 <ion-content class="has-header components-demo cards-bg home">
     <ion *ngFor="#game of Games">
-        <ion-card class="advanced-background" (click)="startGame(game)" *ngIf="game.GamesSet.length > 0">
+        <ion-card (click)="startGame(game)" *ngIf="game.GamesSet.length > 0" class="max-width">
+            <ion-icon name="musical-note" item-right></ion-icon>
+            <h2 class="advanced-category" item-left>Vogelgesänge erkennen</h2>
+            <h1 class="advanced-background-title">
+                {{ game.Name }}
+            </h1>
 
-            <img src="./img/placeholder-home-screen.png"/>
-            <p class="advanced-background-title">
-                {{ game.Name }}<br/>
-                <span class="advanced-background-subtitle">{{ game.GamesSet.length }} Arten </span>
-            </p>
+            <p class="advanced-background-subtitle">{{ game.GamesSet.length }} Arten </p>
 
         </ion-card>
     </ion>

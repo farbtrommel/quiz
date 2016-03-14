@@ -1,4 +1,4 @@
-import {Component, Directive, View, ElementRef, Input} from 'angular2/core';
+import {Component, Directive, View, ElementRef, Input, ViewEncapsulation} from 'angular2/core';
 import {Page, NavController, NavParams, Platform, Modal, Icon, ViewController, List, Item} from 'ionic-framework/ionic';
 import {StorageService} from '../../quiz/storage-service'
 import {GameStats, GameStatsEntry} from '../../quiz/GameStats'
@@ -8,13 +8,45 @@ import {MyApp} from "../../app";
 
 
 @Component({
+    selector:'stars',
+    directives: [Icon, List, Item],
+    templateUrl: 'build/pages/stats/stars.html',
+    encapsulation: ViewEncapsulation.None
+})
+export class Stars{
+    @Input() value:number;
+    listOfStars:string[] = ["star-outline", "star-outline", "star-outline", "star-outline", "star-outline"];
+
+    ngOnInit() {
+        var until:number = Math.floor(this.value/2);
+        var i:number=0;
+        for (; i < until; i++) {
+            this.listOfStars[i] = "star";
+        }
+
+        if (i < 5 && this.value % 2 == 1) {
+            this.listOfStars[i] = "star-half";
+            i++;
+        }
+
+        while (i < 5) {
+            this.listOfStars[i] = "star-outline";
+            i++;
+        }
+
+    }
+
+}
+
+@Component({
     selector:'stats-entry',
     input: [
         'item: item',
         'game: game',
-        'stats: stats'
+        'stats: stats',
+        'stars: stars'
     ],
-    directives: [Icon, List, Item],
+    directives: [Icon, List, Item, Stars],
     templateUrl: 'build/pages/stats/stats-entry.html'
 })
 export class StatsEntry{
@@ -22,6 +54,7 @@ export class StatsEntry{
     @Input() game:IGame;
     @Input() item:IGameEntry;
     @Input() stats:any = {"wins": 0, "losses": 0};
+    @Input() stars:number;
     viewCtrl: ViewController;
     nav: NavController;
 
@@ -39,7 +72,7 @@ export class StatsEntry{
 
 @Page({
     templateUrl: 'build/pages/stats/stats.html',
-    directives: [StatsEntry]
+    directives: [StatsEntry, Stars]
 })
 export class StatsPage {
     storageService: StorageService;
@@ -59,7 +92,7 @@ export class StatsPage {
     isAndroid:boolean;
 
     constructor(storageService: StorageService, nav: NavController, navParams: NavParams, platform: Platform) {
-        this.title = "Stadtnatur entdecken";
+        this.title = "Stadtnatur Quiz";
         this.isAndroid = platform.is('android');
         this.gameNo = navParams.get("gameNo") || 0;
         this.showDetails= navParams.get("showDetails") || false;

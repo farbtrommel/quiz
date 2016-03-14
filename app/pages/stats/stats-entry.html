@@ -1,4 +1,4 @@
-<ion-item (click)="showDetailsOnClick(item)">
+<ion-item (click)="showDetailsOnClick(item)" *ngIf="item">
     <ion-thumbnail item-left>
         <img src="./assets/quiz/{{ game.id }}/thumbnail-{{ item.id }}.jpg"/>
     </ion-thumbnail>
@@ -6,9 +6,11 @@
     <h2> {{ item.Name }}</h2>
     <p> {{ item.Sciname }}</p>
 
-    <ion-icon name="checkmark"  class="large mark-as-right">&nbsp;:&nbsp;
-        {{ stats.wins }}</ion-icon>
-    <ion-icon name="close" class="large mark-as-wrong" style="float:right;">&nbsp;:&nbsp;
+    <stars [value]="stars"></stars>
+    (
+    <ion-icon name="checkmark"  class="mark-as-right">
+        {{ stats.wins }}</ion-icon>,
+    <ion-icon name="close" class="mark-as-wrong">
         {{ stats.losses }}</ion-icon>
-
+    )
 </ion-item>

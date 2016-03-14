@@ -46,25 +46,27 @@ export class AudioControl {
             this.audioElement.nativeElement.loop = (this.loop == "true");
         } else {
             if (this.autoplay == "true") {
-                this.playMP3();
+                this.play();
             }
         }
 
     }
     ngOnDestroy() {
-        if (this.isBrowser) {
-            this.audioElement.nativeElement.pause();
-        } else {
-            this.stopMP3();
+        this.stop();
+    }
+
+    onPageDidEnter() {
+        if (this.autoplay == "true") {
+            this.play();
         }
     }
 
+    onPageWillLeave () {
+        this.stop();
+    }
+
     onClick(event: EventListenerObject) {
-        if (this.isBrowser) {
-            this.changeAudioBrowser();
-        } else {
-            this.changeAudioCordova();
-        }
+        this.toggle();
     }
 
     changeAudio(){
@@ -72,36 +74,38 @@ export class AudioControl {
         console.log("Audio Status changed " + this.isPlaying);
     }
 
-    changeAudioBrowser() {
+
+    /**
+     * Stop when the audio is playing and play when the audio is stopped.
+     */
+    toggle() {
         if (this.isPlaying) {
+            this.stop();
+        } else {
+            this.play();
+        }
+    }
+
+    stop() {
+        if (this.isBrowser) {
             this.audioElement.nativeElement.pause();
-            console.log("Stop sound.");
         } else {
+            if(this.media) {
+                this.media.stop();
+                this.isPlaying = false;
+            }
+        }
+    }
+
+    play() {
+        if (this.isBrowser) {
             this.audioElement.nativeElement.play();
-            console.log("Play sound.");
-        }
-        this.isPlaying = !this.audioElement.nativeElement.paused;
-    }
-
-    changeAudioCordova() {
-        if (this.isPlaying) {
-            this.stopMP3();
         } else {
-            this.playMP3();
+            var mp3URL = this.getMediaURL(this.src);
+            this.media = new Media(mp3URL, msg => this.mediaSuccess(msg), err => this.mediaError(err));
+            this.media.play();
+            this.isPlaying = true;
         }
-    }
-
-    stopMP3() {
-        if(this.media) {
-            this.media.stop();
-            this.isPlaying = false;
-        }
-    }
-    playMP3() {
-        var mp3URL = this.getMediaURL(this.src);
-        this.media = new Media(mp3URL, msg => this.mediaSuccess(msg), err => this.mediaError(err));
-        this.media.play();
-        this.isPlaying = true;
     }
 
     getMediaURL(s) {
@@ -113,7 +117,7 @@ export class AudioControl {
     mediaSuccess(e) {
         this.isPlaying = false;
         if (this.loop == "true") {
-            this.playMP3();
+            this.play();
         }
     }
 

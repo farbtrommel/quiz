@@ -15,6 +15,8 @@ export class StorageService {
     private stats:GameStats;
     private numberOfRounds: number;
     private expertMode: boolean;
+    private showCorrectAnswer: boolean;
+    private sendStats: boolean;
 
     constructor() {
         //console.log("===========> STORAGE CLASS INIT <===========");
@@ -24,6 +26,20 @@ export class StorageService {
         });
         this.storage.get('expertMode').then(data => {
             this.expertMode = (data === "true");
+        });
+        this.storage.get('showCorrectAnswer').then(data => {
+            if (typeof data === "undefined") {
+                this.showCorrectAnswer = true;
+            } else {
+                this.showCorrectAnswer = (data === "true");
+            }
+        });
+        this.storage.get('sendStats').then(data => {
+            if (typeof data === "undefined") {
+                this.sendStats = true;
+            } else {
+                this.sendStats = (data === "true");
+            }
         });
         this.storage.get('numberOfRounds').then(data => {
             this.numberOfRounds = parseInt(<string>data) || 10
@@ -99,5 +115,41 @@ export class StorageService {
     increaseCounter(gameId: string, entryId: string, won:boolean) {
         this.stats.increaseCounter(gameId, entryId, won);
         this.stats.save(false);
+    }
+
+    /**
+     * Show the correct answer after a finish round
+     * @returns {boolean}
+     */
+    getShowCorrectAnswer():boolean {
+        return this.showCorrectAnswer
+    }
+
+    /**
+     * Set true for showing the correct answer and false for not showing the correct answer
+     * Default: true.
+     * @param value
+     */
+    setShowCorrectAnswer(value:boolean):void {
+        this.showCorrectAnswer = value;
+        this.storage.set('showCorrectAnswer', value);
+    }
+
+    /**
+     * Send stats to the REST Api, if true.
+     * Default: true.
+     * @returns {boolean}
+     */
+    getSendStats():boolean {
+        return this.sendStats;
+    }
+
+    /**
+     * Send stats if true otherwise not.
+     * @param value
+     */
+    setSendStats(value:boolean):void {
+        this.sendStats = value;
+        this.storage.set('sendStats', value);
     }
 }
