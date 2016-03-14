@@ -1,4 +1,40 @@
 .quiz {
+  &.summary {
+    button {
+      background-color: transparent;
+      color: black;
+    }
+    ion-avatar img, ion-thumbnail img {
+      display: inline-block;
+    }
+    .left-column, .middle-column, .right-column{
+      font-size: 1.35rem;
+      box-shadow: none;
+      text-transform: none;
+    }
+
+    .left-column {
+      width:40%;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .middle-column {
+      width:10%;
+      display: inline-block;
+      vertical-align: bottom;
+      text-align: center;
+    }
+
+    .right-column {
+      width:47%;
+      display: inline-block;
+      text-align: right;
+      ion-thumbnail {
+        margin-right: 0;
+      }
+    }
+  }
   &.quiz-extra-background {
     background-image: url("../../img/home.jpg");
     background-size: 150% 120%;
