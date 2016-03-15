@@ -35,13 +35,13 @@ export class AudioControl {
         this.element = element;
         this.platform = platform;
 
-        if (this.platform.is("WebView") && !element.nativeElement.getAttribute("src").startsWith("http")) {
+        if (this.platform.is("cordova") ) {
             this.isBrowser = false;
         }
     }
     ngAfterViewInit() {
         if (this.isBrowser) {
-            this.audioElement.nativeElement.controls = (this.htmlcontrols == "true");
+            this.audioElement.nativeElement.controls = true;
             this.audioElement.nativeElement.autoplay = (this.autoplay == "true");
             this.audioElement.nativeElement.loop = (this.loop == "true");
         } else {
@@ -51,6 +51,17 @@ export class AudioControl {
         }
 
     }
+
+    ngOnChanges(changes: {[propertyName: string]}){
+        if (changes['src']) {
+            if (this.media != null) {
+                this.media.stop();
+                this.isPlaying = false;
+                this.play();
+            }
+        }
+    }
+
     ngOnDestroy() {
         this.stop();
     }
@@ -101,8 +112,14 @@ export class AudioControl {
         if (this.isBrowser) {
             this.audioElement.nativeElement.play();
         } else {
+            if (this.isPlaying) {
+                this.media.stop();
+            }
             var mp3URL = this.getMediaURL(this.src);
-            this.media = new Media(mp3URL, msg => this.mediaSuccess(msg), err => this.mediaError(err));
+            this.media = new Media(mp3URL,
+                msg => this.mediaSuccess(msg),
+                err => this.mediaError(err),
+                duration => this.mediaStatus(duration));
             this.media.play();
         }
         this.isPlaying = true;
@@ -110,14 +127,28 @@ export class AudioControl {
 
     getMediaURL(s) {
         if(this.platform.is("android")) {
-            return "/android_asset/www/" + s;
+            s = "file:///android_asset/www/" + s;
+            s = s.replace("./","");
         }
         return s;
     }
+
+    mediaStatus(crtDuration) {
+        if (crtDuration >= (this.media.getDuration() * 0.95)) {
+            if (this.loop == "true") {
+                this.media.stop();
+                this.media.play();
+            } else {
+                this.media.stop();
+                this.isPlaying = false;
+            }
+        }
+    }
+
     mediaSuccess(e) {
         this.isPlaying = false;
         if (this.loop == "true") {
-            this.play();
+            this.media.play();
         }
     }
 

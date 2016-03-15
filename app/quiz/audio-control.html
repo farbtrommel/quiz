@@ -1,9 +1,12 @@
-<audio #player src="{{src}}"
-       (click)="onClick($event)"
-       (playing)="changeAudio()"
-       *ngIf="isBrowser" [class.hide]="htmlcontrols == 'false'">
-
-</audio>
+<ion-row *ngIf="isBrowser">
+    <audio #player src="{{src}}"
+           (click)="onClick($event)"
+           (playing)="changeAudio()"
+           style="margin: 0 auto;"
+    >
+        <!-- [class.hide]="(!platform.is('android') || !platform.is('ios') && htmlcontrols == 'false')" -->
+    </audio>
+</ion-row>
 <ion-icon name="play" (click)="onClick($event)" *ngIf="!isPlaying" [class.hide]="controls == 'false'"></ion-icon>
 <ion-icon name="pause" (click)="onClick($event)" *ngIf="isPlaying" [class.hide]="controls == 'false'"></ion-icon>
 

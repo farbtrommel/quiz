@@ -28,17 +28,17 @@ export class StorageService {
             this.expertMode = (data === "true");
         });
         this.storage.get('showCorrectAnswer').then(data => {
-            if (typeof data === "undefined") {
+            if (typeof data === "undefined" || data === null) {
                 this.showCorrectAnswer = true;
             } else {
                 this.showCorrectAnswer = (data === "true");
             }
         });
         this.storage.get('sendStats').then(data => {
-            if (typeof data === "undefined") {
+            if (typeof data === "undefined" || data === null) {
                 this.sendStats = true;
             } else {
-                this.sendStats = (data === "true");
+                this.sendStats = (data === "true" || data == true);
             }
         });
         this.storage.get('numberOfRounds').then(data => {

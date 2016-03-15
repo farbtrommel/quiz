@@ -40,7 +40,7 @@
                 </ion-thumbnail> -->
                 <h2>{{item.Name}}</h2>
                 <stars [value]="storageService.getGameStats().getStars(item.id)"></stars>
-                {{storageService.getGameStats().getStars(item.id)}}
+
                 <!--
                 <ion-icon name="checkmark" class="mark-as-right">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(item.id).wins }}</ion-icon>
                 <ion-icon name="close" class="mark-as-wrong" style="float:right;">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(item.id).losses }}</ion-icon>

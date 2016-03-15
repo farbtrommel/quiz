@@ -17,7 +17,17 @@ export class Stars{
     @Input() value:number;
     listOfStars:string[] = ["star-outline", "star-outline", "star-outline", "star-outline", "star-outline"];
 
-    ngOnInit() {
+    ngOnChanges() {
+        this.refreshStars();
+    }
+    
+    ngOnChanges(changes: {[propertyName: string]}){
+        if (changes['value']) {
+            this.refreshStars();
+        }
+    }
+
+    refreshStars() {
         var until:number = Math.floor(this.value/2);
         var i:number=0;
         for (; i < until; i++) {
@@ -33,7 +43,6 @@ export class Stars{
             this.listOfStars[i] = "star-outline";
             i++;
         }
-
     }
 
 }
@@ -91,8 +100,9 @@ export class StatsPage {
     searchQuery:string = "";
     isAndroid:boolean;
 
+
     constructor(storageService: StorageService, nav: NavController, navParams: NavParams, platform: Platform) {
-        this.title = "StadtNatur Quiz";
+        this.title = MyApp.title;
         this.isAndroid = platform.is('android');
         this.gameNo = navParams.get("gameNo") || 0;
         this.showDetails= navParams.get("showDetails") || false;
@@ -100,17 +110,19 @@ export class StatsPage {
         this.storageService = storageService;
         this.Games = Quiz.getGames();
         this.gameId = this.Games[this.gameNo].id;
+    }
+
+    onPageWillEnter() {
         if (this.showDetails){
             this.title = this.Games[this.gameNo].Name;
             this.initializeItems();
-            for (var i in this.gameSet) {
+            for (var i:number in this.gameSet) {
                 this.gameSetById[this.gameSet[i].id] = this.gameSet[i];
             }
-            this.topSet = storageService.getGameStats().sort(this.gameId, "wins");
-            this.flopSet = storageService.getGameStats().sort(this.gameId, "losses");
+            this.topSet = this.storageService.getGameStats().sort(this.gameId, "wins");
+            this.flopSet = this.storageService.getGameStats().sort(this.gameId, "losses");
             //this.unratedSet = storageService.getGameStats().sort(this.gameId, "unrated");
         }
-
     }
 
     initializeItems() {

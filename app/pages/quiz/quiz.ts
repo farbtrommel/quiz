@@ -48,6 +48,7 @@ export class QuizPage {
 
     onClick(no:number) {
         var item: IGameEntry = this.quizSet.Set[this.quizSet.CrtQuestion][no];
+        this.audioController.stop();
         if (this.quizSet.RoundFinished) {
             return;
         }
