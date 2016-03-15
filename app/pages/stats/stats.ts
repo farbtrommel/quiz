@@ -20,7 +20,7 @@ export class Stars{
     ngOnChanges() {
         this.refreshStars();
     }
-    
+
     ngOnChanges(changes: {[propertyName: string]}){
         if (changes['value']) {
             this.refreshStars();
