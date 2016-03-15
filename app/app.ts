@@ -2,6 +2,8 @@ import {App, Platform, Config, NavController} from 'ionic-framework/ionic';
 import {ViewChild} from 'angular2/core';
 import {TabsPage} from './pages/tabs/tabs';
 import {StorageService} from './quiz/storage-service';
+import {enableProdMode} from 'angular2/core';
+enableProdMode();
 
 @App({
     template: '<ion-nav #rootNavController id="nav" [root]="root" #content></ion-nav>',

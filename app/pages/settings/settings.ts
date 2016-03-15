@@ -1,6 +1,7 @@
 import {Page, Alert, NavController, NavParams} from 'ionic-framework/ionic';
 import {StorageService} from '../../quiz/storage-service';
 import {MyApp} from "../../app";
+import {PrivacyPage} from '../information/privacy';
 
 @Page({
   templateUrl: 'build/pages/settings/settings.html',
@@ -37,6 +38,14 @@ export class SettingsPage {
         console.log("toggle expert mode");
         this.expertMode = !this.expertMode;
         this.storageService.setExpertMode(this.expertMode)
+    }
+
+    showDataPrivacy() {
+        //dirty hack:
+        //when privacy button get hit, avoid toggle send stats
+        this.clickSendStats();
+
+        this.nav.push(PrivacyPage, {}, {"animate": true}, null);
     }
 
     openPrompt() {

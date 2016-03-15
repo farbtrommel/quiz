@@ -14,7 +14,10 @@
             Zeige richtige Antwort
         </ion-toggle>
         <ion-toggle id="settingsSendStats" [checked]="sendStats" (click)="clickSendStats()">
-            Sende Statsitik
+            Sende Statistik
+            <button clear (click)="showDataPrivacy()" class="info-btn">
+                <ion-icon name="information-circle" is-active="false"></ion-icon>
+            </button>
         </ion-toggle>
     </ion-list>
 </ion-content>

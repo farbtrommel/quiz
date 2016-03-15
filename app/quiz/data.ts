@@ -46,7 +46,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Turdus_merula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock und Frommolt",
@@ -58,7 +58,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "http://creativecommons.org/licenses/by-sa/2.5/"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -93,7 +93,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Cyanistes_caeruleus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -105,7 +105,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:ParusCaeruleus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Maximilian Dorsch",
@@ -140,7 +140,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Fringilla_coelebs_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -152,13 +152,13 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Fringilla_coelebs_%28chaffinch%29,_male.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "MichaelMaggs",
                             "Link": ""
                         },
-                        "Crop": "{\"x\":167.0965288383411,\"y\":662.7316381800402,\"width\":2287.4771310708074,\"height\":2287.4771310708074,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
+                        "Crop": "{\"x\":299.115,\"y\":106.04823403309094,\"width\":1890.4769678271134,\"height\":1890.4769678271134,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
                     }
                 },
                 {
@@ -187,7 +187,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Dendrocopos_major_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Gnensch/Conrads",
@@ -199,13 +199,13 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:DendrocoposMajor.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Sławomir Staszczuk",
                             "Link": ""
                         },
-                        "Crop": "{\"x\":299.115,\"y\":106.04823403309094,\"width\":1890.4769678271134,\"height\":1890.4769678271134,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
+                        "Crop": "{\"x\":47.51909896864981,\"y\":60.562529881838756,\"width\":546.4107642920563,\"height\":546.4107642920563,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
                     }
                 },
                 {
@@ -234,7 +234,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Garrulus_glandarius_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -246,7 +246,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_B_Luc_Viatour.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "I, Luc Viatour, www.lucnix.be",
@@ -281,7 +281,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Pica_pica_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -293,7 +293,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Compans_Caffarelli_-_2012-03-16.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Pierre-Selim",
@@ -328,7 +328,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Alauda_arvensis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -340,13 +340,13 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Alauda_arvensis_2.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5 se",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/se/deed.en"
                         },
                         "Author": {
                             "Name": "Daniel Pettersson",
                             "Link": ""
                         },
-                        "Crop": "{\"x\":52.173007308244195,\"y\":3.764608014149573,\"width\":389.02743142144607,\"height\":389.02743142144607,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
+                        "Crop": "{\"x\":47.51909896864981,\"y\":60.562529881838756,\"width\":546.4107642920563,\"height\":546.4107642920563,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
                     }
                 },
                 {
@@ -375,7 +375,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Anser_anser_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -387,13 +387,13 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Graugans_Anser_Anser.jpg",
                         "Licence": {
                             "Name": "PD",
-                            "Link": ""
+                            "Link": "https://en.wikipedia.org/wiki/Public_domain"
                         },
                         "Author": {
                             "Name": "H005, denoised by Pro2",
                             "Link": ""
                         },
-                        "Crop": "{\"x\":548.3331746042053,\"y\":245.2159087853141,\"width\":1476.7950333724775,\"height\":1476.7950333724775,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
+                        "Crop": "{\"x\":1007.6800000000001,\"y\":352.0000000000001,\"width\":2144,\"height\":2144,\"rotate\":0,\"scaleX\":1,\"scaleY\":1}"
                     }
                 },
                 {
@@ -422,7 +422,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phoenicurus_ochruros_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -434,7 +434,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:PhoenicurusOchrurosGuntherHasler01.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0 de",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
                         },
                         "Author": {
                             "Name": "Gunther Hasler",
@@ -469,7 +469,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Passer_domesticus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -481,7 +481,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_male_%2815%29.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0 de",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/de/deed.en"
                         },
                         "Author": {
                             "Name": "Adamo",
@@ -516,7 +516,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Cygnus_olor_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -528,7 +528,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:CygneVaires.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Sanchezn",
@@ -563,7 +563,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sitta_europaea_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads und Frommolt",
@@ -575,7 +575,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Kleiber_vertikal_klassisch_nah.jpg",
                         "Licence": {
                             "Name": "CC-BY-SA 4.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tehgnz1",
@@ -610,7 +610,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Parus_major_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -622,7 +622,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Great-Tit.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "http://creativecommons.org/licenses/by-sa/2.5/"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -657,7 +657,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Corvus_corax_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -669,7 +669,7 @@ function getData () {
                         "Link": "https://www.flickr.com/photos/petersamow/9286875478/in/photolist-f9DEwJ-6awQvK-dndWsH-F29TZ-rffC8k-4rCNhY-6Y9ttH-6YdvzG-6KV2L6-6KV3vi-6KV32T-qz8rhu-5XPRHu-AvJM5d-62Ydwx-5VRYmh-BhmtWK-dCxxU3-4veo6H-jBqpai-dfAVar-dfAWGD-dfAVsk-dfAYqG-dfAZo5-dfAY9E-4ZaK6B-5EkYbu-7MEW3-dsiD6V-9oBRD2-7KMBeL-jTHHPx-jTGVHr-jTKaoC-RgEpj-jTHBH4-aGoQxa-jTHJR2-jTHEY2-8m1Gkn-oyUsLj-Bs7Rf-jCGaEp-6wHwq2-wDZbsE-wocy4z-6noND7-dUWyPY-6ur7SX",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "Peter Samow",
@@ -704,7 +704,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Cuculus_canorus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -716,7 +716,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Kuckuck_%28Cuculus_canorus%29_by_Tim_Peukert.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tim Peukert",
@@ -751,7 +751,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Apus_apus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -763,7 +763,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Apus_apus_01.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Paweł Kuźniar",
@@ -798,7 +798,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Luscinia_megarhynchos_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -810,7 +810,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Nachtigall_%28Luscinia_megarhynchos%29-2.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "J. Dietrich, derivative work: Bogbumper (talk)",
@@ -845,7 +845,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Columba_palumbus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Schubert",
@@ -857,7 +857,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Columba_palumbus_-garden_post-8.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tristan Ferne",
@@ -892,7 +892,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Erithacus_rubecula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -904,7 +904,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Rotkehlchenportrait_aus_ca._1_Meter_Entfernung.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Joefrei ",
@@ -939,7 +939,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sturnus_vulgaris_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -951,7 +951,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Sturnus_vulgaris_2_%28Marek_Szczepanek%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Marek Szczepanek",
@@ -986,7 +986,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Anas_platyrhynchos_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -998,7 +998,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "http://creativecommons.org/licenses/by-sa/2.5/"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1033,7 +1033,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Falco_tinnunculus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -1045,7 +1045,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common_kestrel_falco_tinnunculus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "http://creativecommons.org/licenses/by-sa/2.5/"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1080,7 +1080,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Strix_aluco_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Krey",
@@ -1092,7 +1092,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Waldkauz-Strix_aluco.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "http://creativecommons.org/licenses/by-sa/2.5/"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1127,7 +1127,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Ciconia_ciconia_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -1139,7 +1139,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Weissstorch_Ciconia_ciconia_Wildpark_Poing-02.jpg?uselang=de",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Rufus46",
@@ -1174,7 +1174,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phylloscopus_collybita_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -1186,7 +1186,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Chiffchaff_-_Phylloscopus_collybita.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "http://creativecommons.org/licenses/by-sa/2.5/"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1242,7 +1242,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Turdus_merula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock und Frommolt",
@@ -1254,7 +1254,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1289,7 +1289,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Motacilla_alba_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -1301,7 +1301,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Bachstelze_Motacilla_alba.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1336,7 +1336,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Anthus_trivialis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -1347,8 +1347,8 @@ function getData () {
                         "Src": "https://upload.wikimedia.org/wikipedia/commons/7/71/Anthus_trivialis_vogelartinfo_chris_romeiks_CHR4025.jpg",
                         "Link": "https://commons.wikimedia.org/wiki/File:Anthus_trivialis_vogelartinfo_chris_romeiks_CHR4025.jpg",
                         "Licence": {
-                            "Name": "GFDL 1.2",
-                            "Link": ""
+                            "Name": "CC BY-NC-SA 3.0",
+                            "Link": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
                         },
                         "Author": {
                             "Name": "Chris Romeiks",
@@ -1383,7 +1383,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Fulica_atra_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -1395,7 +1395,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Fulica_atra_on_ice.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Philippe Amelant ",
@@ -1430,7 +1430,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Cyanistes_caeruleus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -1442,7 +1442,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:ParusCaeruleus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Maximilian Dorsch",
@@ -1477,7 +1477,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Carduelis_cannabina_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tretzel",
@@ -1489,7 +1489,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Makol%C4%85gwa.jpg",
                         "Licence": {
                             "Name": "CC BY 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Katarzyna Stępniewska ",
@@ -1524,7 +1524,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Saxicola_rubetra_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -1536,7 +1536,7 @@ function getData () {
                         "Link": "https://www.flickr.com/photos/60740813@N04/8661146784/in/photolist-ecmDbY-ecfZxx-ecfZvx-ecfZtM-ecmD5q-ecmD3E-ecmD25-ecfZmk-ecmCWG-ecfZgM-ecmCS3-ecfZe4-ecfZcV-ecmCNS-ecfZa8-ecmCKu-ecmCD7-ecmCAj-ecfYXM-ecfYUV-ecmCth-ecmCr3-ecmCqj-viMyuk-9VgXNg-9VgYJv-ecmCqL-ecmCpC-ecfYMR-ecfYMD-ecmCos-ecfYMK-ecmCnf-ecfYL2-ecmCm5-ecfYJe-ecfYJk-ecfYGr-ecmChw-ei99kf-9qFC57-dZzd5e-e71SMB-e71SHX-e77vLC-e77vZd-7tZ6TC-efjoHK-7tVb88-efjork",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "Michele Lamberti",
@@ -1571,7 +1571,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Fringilla_coelebs_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -1583,7 +1583,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Fringilla_coelebs_%28chaffinch%29,_male.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "MichaelMaggs",
@@ -1618,7 +1618,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Dendrocopos_major_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Gnensch/Conrads",
@@ -1630,7 +1630,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:DendrocoposMajor.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Sławomir Staszczuk",
@@ -1665,7 +1665,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Corvus_monedula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -1677,7 +1677,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Jackdaw_%287538518858%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Jackdaw",
@@ -1712,7 +1712,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sylvia_communis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -1724,7 +1724,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common_Whitethroat.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1759,7 +1759,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Acrocephalus_arundinaceus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -1771,7 +1771,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Drosselrohrs%C3%A4nger_Great_reed_warbler.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -1806,7 +1806,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Garrulus_glandarius_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -1818,7 +1818,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Garrulus_glandarius_B_Luc_Viatour.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "I, Luc Viatour, www.lucnix.be",
@@ -1853,7 +1853,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Alcedo_atthis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -1865,7 +1865,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Alcedo_atthis_2_%28Lukasz_Lukasik%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Lukasz Lukasik",
@@ -1900,7 +1900,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Pica_pica_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -1912,7 +1912,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Pica_pica_-_Compans_Caffarelli_-_2012-03-16.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Pierre-Selim",
@@ -1947,7 +1947,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Alauda_arvensis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -1959,7 +1959,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Alauda_arvensis_2.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5 se",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/se/deed.en"
                         },
                         "Author": {
                             "Name": "Daniel Pettersson",
@@ -1994,7 +1994,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Locustella_naevia_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -2006,7 +2006,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Grashoppsangare-070512.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Stefan Hage",
@@ -2041,7 +2041,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Passer_montanus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -2052,8 +2052,8 @@ function getData () {
                         "Src": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Eurasian_Tree_Sparrow.jpg",
                         "Link": "https://commons.wikimedia.org/wiki/File:Eurasian_Tree_Sparrow.jpg",
                         "Licence": {
-                            "Name": "GFDL",
-                            "Link": ""
+                            "Name": "CC BY-SA 4.0",
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/se/deed.en"
                         },
                         "Author": {
                             "Name": "Yiwenyiwen",
@@ -2088,7 +2088,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phylloscopus_trochilus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2100,7 +2100,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Willow_Warbler_Phylloscopus_trochilus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -2135,7 +2135,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Certhia_brachydactyla_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tretzel",
@@ -2147,7 +2147,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Certhia_brachydactyla_on_a_tree,_M%C3%BCnster,_Germany.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Ben Fredericson",
@@ -2182,7 +2182,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sylvia_borin_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2194,7 +2194,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Sylvia_borin_%28%C3%96rebro_County%29.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Biillyboy",
@@ -2229,7 +2229,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phoenicurus_phoenicurus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -2241,7 +2241,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Phoenicurus_phoenicurus_male%28ThKraft%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Thomas Kraft",
@@ -2276,7 +2276,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Hippolais_icterina_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -2287,8 +2287,8 @@ function getData () {
                         "Src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Hippolais_icterina_vogelartinfo_chris_romeiks_R7F2916.jpg",
                         "Link": "https://commons.wikimedia.org/wiki/File:Hippolais_icterina_vogelartinfo_chris_romeiks_R7F2916.jpg",
                         "Licence": {
-                            "Name": "GFDL 1.2",
-                            "Link": ""
+                            "Name": "CC BY-NC-SA 3.0",
+                            "Link": "http://creativecommons.org/licenses/by-nc-sa/3.0/deed.de"
                         },
                         "Author": {
                             "Name": "Chris Romeiks",
@@ -2323,7 +2323,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Pyrrhula_pyrrhula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Wallschläger",
@@ -2335,7 +2335,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Bullfinch_male.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Francis C. Franklin ",
@@ -2370,7 +2370,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Serinus_serinus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -2382,7 +2382,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Girlitz_Serinus_serinus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -2417,7 +2417,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Emberiza_citrinella_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2429,7 +2429,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Goldammer_Emberiza_citrinella.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -2464,7 +2464,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Anser_anser_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2476,7 +2476,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Graugans_Anser_Anser.jpg",
                         "Licence": {
                             "Name": "PD",
-                            "Link": ""
+                            "Link": "https://en.wikipedia.org/wiki/Public_domain"
                         },
                         "Author": {
                             "Name": "H005, denoised by Pro2",
@@ -2511,7 +2511,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Ardea_cinerea_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2523,7 +2523,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Ardea_cinerea_qtl3.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Quartl",
@@ -2558,7 +2558,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Chloris_chloris_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2570,7 +2570,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Carduelis_chloris_Jarom%C4%9B%C5%99_2013_1.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Karelj",
@@ -2605,7 +2605,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Picus_viridis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2617,7 +2617,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Gr%C3%BCnspecht_Picus_viridis_Weibchen-006.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "OhWeh ",
@@ -2652,7 +2652,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Accipiter_gentilis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -2664,7 +2664,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Accipiter_gentilis_-Fife,_Scotland-8.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Nigel Wedge",
@@ -2699,7 +2699,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Galerida_cristata_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Krey",
@@ -2711,7 +2711,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Galerida_cristata_meridionalis.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Avitopia",
@@ -2746,7 +2746,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Lophophanes_cristatus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2758,7 +2758,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Lophophanes_cristatus_-_01.jpg",
                         "Licence": {
                             "Name": "CC-BY-SA 4.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
                         },
                         "Author": {
                             "Name": "Carlos Delgado",
@@ -2793,7 +2793,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Podiceps_cristatus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Schubert",
@@ -2805,7 +2805,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Grebes_Mother_and_Chick_%286001630489%29.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tony Hisgett",
@@ -2840,7 +2840,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phoenicurus_ochruros_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -2852,7 +2852,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:PhoenicurusOchrurosGuntherHasler01.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0 de",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
                         },
                         "Author": {
                             "Name": "Gunther Hasler",
@@ -2887,7 +2887,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Passer_domesticus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2899,7 +2899,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Passer_domesticus_male_%2815%29.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0 de",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/de/deed.en"
                         },
                         "Author": {
                             "Name": "Adamo",
@@ -2934,7 +2934,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Prunella_modularis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2946,7 +2946,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Dunnock_crop2.jpg",
                         "Licence": {
                             "Name": "CC BY 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Smalljim",
@@ -2981,7 +2981,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Cygnus_olor_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -2993,7 +2993,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:CygneVaires.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Sanchezn",
@@ -3028,7 +3028,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phasianus_colchicus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3040,7 +3040,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Phasianus_colchicus_3_tom_(Lukasz_Lukasik).jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Lukasz Lukasik",
@@ -3075,7 +3075,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Coccothraustes_coccothraustes_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -3087,7 +3087,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Coccothraustes_coccothraustes_1_%28Marek_Szczepanek%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Marek Szczepanek ",
@@ -3122,7 +3122,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sylvia_curruca_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Wallschläger",
@@ -3134,7 +3134,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Sylvia_curruca_1_%28Martin_Mecnarowski%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Martin Mecnarowski (http://www.photomecan.eu/)",
@@ -3169,7 +3169,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sitta_europaea_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads und Frommolt",
@@ -3181,7 +3181,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Kleiber_vertikal_klassisch_nah.jpg",
                         "Licence": {
                             "Name": "CC-BY-SA 4.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tehgnz1",
@@ -3216,7 +3216,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Dendrocopos_minor_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Schubert und Conrads",
@@ -3228,7 +3228,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:DendrocoposMinorNaturalHabitat_%28Cut%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Thermos",
@@ -3263,7 +3263,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Parus_major_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3275,7 +3275,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Great-Tit.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -3310,7 +3310,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Corvus_corax_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -3322,7 +3322,7 @@ function getData () {
                         "Link": "https://www.flickr.com/photos/petersamow/9286875478/in/photolist-f9DEwJ-6awQvK-dndWsH-F29TZ-rffC8k-4rCNhY-6Y9ttH-6YdvzG-6KV2L6-6KV3vi-6KV32T-qz8rhu-5XPRHu-AvJM5d-62Ydwx-5VRYmh-BhmtWK-dCxxU3-4veo6H-jBqpai-dfAVar-dfAWGD-dfAVsk-dfAYqG-dfAZo5-dfAY9E-4ZaK6B-5EkYbu-7MEW3-dsiD6V-9oBRD2-7KMBeL-jTHHPx-jTGVHr-jTKaoC-RgEpj-jTHBH4-aGoQxa-jTHJR2-jTHEY2-8m1Gkn-oyUsLj-Bs7Rf-jCGaEp-6wHwq2-wDZbsE-wocy4z-6noND7-dUWyPY-6ur7SX",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "Peter Samow",
@@ -3357,7 +3357,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phalacrocorax_carbo_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -3369,7 +3369,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Great_cormorant.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -3404,7 +3404,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Grus_grus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt/Tauchert",
@@ -3416,7 +3416,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common_crane_grus_grus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -3451,7 +3451,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Anas_crecca_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -3463,7 +3463,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Eurasian_teal.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -3498,7 +3498,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Cuculus_canorus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -3510,7 +3510,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Kuckuck_%28Cuculus_canorus%29_by_Tim_Peukert.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tim Peukert",
@@ -3545,7 +3545,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Chroicocephalus_ridibundus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -3557,7 +3557,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Lachm%C3%B6we_Chroicocephalus_ridibundus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -3592,7 +3592,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Apus_apus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -3604,7 +3604,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Apus_apus_01.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Paweł Kuźniar",
@@ -3639,7 +3639,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Buteo_buteo_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3651,7 +3651,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Buteo_buteo_%285571928172%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Björn Strey",
@@ -3686,7 +3686,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Delichon_urbicum_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3698,7 +3698,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Mehlschwalbe_Delichon_urbicum.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -3733,7 +3733,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Dendrocopos_medius_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3745,7 +3745,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Dendrocopos_medius_%28Marek_Szczepanek%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Marek Szczepanek",
@@ -3780,7 +3780,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sylvia_atricapilla_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3792,7 +3792,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Sylvia_atricapilla_male_2.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Jakub Stančo",
@@ -3827,7 +3827,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Luscinia_megarhynchos_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3839,7 +3839,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Nachtigall_%28Luscinia_megarhynchos%29-2.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "J. Dietrich, derivative work: Bogbumper (talk)",
@@ -3874,7 +3874,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Corvus_cornix_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3886,7 +3886,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:CrowHelsinki.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Francisco M. Marzoa",
@@ -3921,7 +3921,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Lanius_collurio_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tretzel",
@@ -3933,7 +3933,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Neunt%C3%B6ter.jpg",
                         "Licence": {
                             "Name": "CC-BY-SA 4.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
                         },
                         "Author": {
                             "Name": "Wolfram Riech",
@@ -3968,7 +3968,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Oriolus_oriolus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -3980,7 +3980,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Pirol_m.jpg",
                         "Licence": {
                             "Name": "CC-BY-SA 4.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
                         },
                         "Author": {
                             "Name": "Wolfram Riech",
@@ -4015,7 +4015,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Hirundo_rustica_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4027,7 +4027,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4062,7 +4062,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Aythya_fuligula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4074,7 +4074,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Aythya_fuligula_-_Busskirch_2011-02-12_15-58-18.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Roland zh",
@@ -4109,7 +4109,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Columba_palumbus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Schubert",
@@ -4121,7 +4121,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Columba_palumbus_-garden_post-8.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "Tristan Ferne",
@@ -4156,7 +4156,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Emberiza_schoeniclus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -4168,7 +4168,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Rohrammer_maenchen.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4203,7 +4203,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Circus_aeruginosus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4215,7 +4215,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Circus_aeruginosus_samiec2.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Artur Mikołajewski",
@@ -4250,7 +4250,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Erithacus_rubecula_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4262,7 +4262,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Rotkehlchenportrait_aus_ca._1_Meter_Entfernung.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Joefrei ",
@@ -4297,7 +4297,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Milvus_milvus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -4309,7 +4309,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:JNR_5246Wiki.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Jens N. Roved",
@@ -4344,7 +4344,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Corvus_frugilegus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Krey",
@@ -4356,7 +4356,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Rook-Corvus_frugilegus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4391,7 +4391,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Aegithalos_caudatus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4403,7 +4403,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Aegithalos_caudatus_Apley_2.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "David Friel",
@@ -4438,7 +4438,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Milvus_migrans_TSA_medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Krey",
@@ -4450,7 +4450,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Milvus_migrans_front%28ThKraft%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4485,7 +4485,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Dryocopus_martius_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt und Conrads",
@@ -4497,7 +4497,7 @@ function getData () {
                         "Link": "https://www.flickr.com/photos/59161444@N05/17103736860/in/photolist-p1zdwc-aCKNQp-4Pd7Vs-e77qYh-e71N1K-e77qUh-dZFfM1-dZFfKu-dZzxDD-dZzxDZ-dZzxFk-7x7a5i-rSk9LX-rNDFrJ-sbvKuw-6ai9sk-4ZTKQa-4ZTJGt-4ZXZjf-4ZXYaf-7Bh57f-7Bh4Ph-7BgXds-7Bd1nc-7Bh4w5-7Bd3wP-7Bd1u6-7BgS75-7Bh3zE-7Bh4e9-7BgRYG-m2LsEe-AmP8vd-s4p85Q-xAUyKJ-nuZhHn-pCrk6X-7Bd1dK-7Bh3Uf-7Bd3D6-ae6HVX-Ca565T-C9X5Ww-nTh6BM-nB5CkP-dYsQKx-xUQ1fA-vjdu5r-wg5Sze-dXagMj",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/"
                         },
                         "Author": {
                             "Name": "xulescu_g",
@@ -4532,7 +4532,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Bombycilla_garrulus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4544,7 +4544,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Bombycilla_garrulusII.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4579,7 +4579,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Turdus_philomelos_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4591,7 +4591,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Song_Thrush_Turdus_philomelos.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4626,7 +4626,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Accipiter_nisus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -4638,7 +4638,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Accipiter_nisus_-Lake_District_-England_-flying-8.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "Des Irwin",
@@ -4673,7 +4673,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sylvia_nisoria_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4685,7 +4685,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Sylvia_nisoria.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Artur Mikołajewski",
@@ -4720,7 +4720,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Sturnus_vulgaris_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -4732,7 +4732,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Sturnus_vulgaris_2_%28Marek_Szczepanek%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Marek Szczepanek",
@@ -4767,7 +4767,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Oenanthe_oenanthe_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Wallschläger",
@@ -4779,7 +4779,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Steinschmaetzer_Northern_wheatear_male.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4814,7 +4814,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Carduelis_carduelis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -4826,7 +4826,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Carduelis_carduelis_close_up.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Francis C. Franklin",
@@ -4861,7 +4861,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Anas_platyrhynchos_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -4873,7 +4873,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -4908,7 +4908,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Columba_livia_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4920,7 +4920,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Columba_livia_LC0199.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0 de",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
                         },
                         "Author": {
                             "Name": "Jörg Hempel",
@@ -4955,7 +4955,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Larus_canus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -4967,7 +4967,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Larus_canus_Common_Gull_in_Norway.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -5002,7 +5002,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Poecile_palustris_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5049,7 +5049,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Acrocephalus_palustris_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -5060,8 +5060,8 @@ function getData () {
                         "Src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Acrocephalus_palustris_%28Marek_Szczepanek%29.jpg",
                         "Link": "https://commons.wikimedia.org/wiki/File:Acrocephalus_palustris_%28Marek_Szczepanek%29.jpg",
                         "Licence": {
-                            "Name": "GFDL",
-                            "Link": ""
+                            "Name": "CC BY-SA 3.0",
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Marek Szczepanek",
@@ -5096,7 +5096,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Aythya_ferina_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -5108,7 +5108,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Duck_WUXGA.jpg",
                         "Licence": {
                             "Name": "gemeinfrei",
-                            "Link": ""
+                            "Link": "https://en.wikipedia.org/wiki/Public_domain"
                         },
                         "Author": {
                             "Name": "Laitche",
@@ -5143,7 +5143,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Periparus_ater_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5154,8 +5154,8 @@ function getData () {
                         "Src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Parus_ater_2_%28Marek_Szczepanek%29.jpg",
                         "Link": "https://commons.wikimedia.org/wiki/File:Parus_ater_2_%28Marek_Szczepanek%29.jpg",
                         "Licence": {
-                            "Name": "GFDL",
-                            "Link": ""
+                            "Name": "CC BY-SA 3.0",
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Marek Szczepanek",
@@ -5190,7 +5190,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Gallinula_chloropus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5202,7 +5202,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common-Moorhen.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -5237,7 +5237,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Acrocephalus_scirpaceus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5249,7 +5249,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:PleidelsheimerWiesentalTeichrohrsaenger.jpg",
                         "Licence": {
                             "Name": "CC BY 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Jürgen Freisinger",
@@ -5284,7 +5284,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Ficedula_hypoleuca_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5296,7 +5296,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Pied_Flycatcher_%28Ficedula_hypoleuca%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Steve Garvie",
@@ -5331,7 +5331,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Streptopelia_decaocto_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5343,7 +5343,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:2015-04-13-Tuerkentauben-Paar4.JPG",
                         "Licence": {
                             "Name": "CC-BY-SA 4.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/4.0/deed.en"
                         },
                         "Author": {
                             "Name": "Harald wehner",
@@ -5378,7 +5378,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Falco_tinnunculus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -5390,7 +5390,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Common_kestrel_falco_tinnunculus.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -5425,7 +5425,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Turdus_pilaris_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5437,7 +5437,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Turdus_pilaris_no.JPG",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Arnstein Rønning",
@@ -5472,7 +5472,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Strix_aluco_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Krey",
@@ -5484,7 +5484,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Waldkauz-Strix_aluco.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -5519,7 +5519,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phylloscopus_sibilatrix_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -5531,7 +5531,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Flickr_-_Rainbirder_-_Wood_Warbler_%28Phylloscopus_sibilatrix%29.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.0/deed.en"
                         },
                         "Author": {
                             "Name": "Steve Garvie",
@@ -5566,7 +5566,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Asio_otus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5578,7 +5578,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Asio_otus_-_Ransuil.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Piet Reens",
@@ -5613,7 +5613,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Falco_peregrinus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5625,7 +5625,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Faucon_pelerin_7_mai.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Georges Lignier",
@@ -5660,7 +5660,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Ciconia_ciconia_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Tembrock",
@@ -5672,7 +5672,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Weissstorch_Ciconia_ciconia_Wildpark_Poing-02.jpg?uselang=de",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Rufus46",
@@ -5707,7 +5707,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Jynx_torquilla_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -5719,7 +5719,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Jynx_torquilla_vlaskop_cropped.jpg",
                         "Licence": {
                             "Name": "CC BY 2.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by/2.0/"
                         },
                         "Author": {
                             "Name": "Martien Brand",
@@ -5754,7 +5754,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Regulus_ignicapillus_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -5766,7 +5766,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Goldcrest_1.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Francis C. Franklin",
@@ -5801,7 +5801,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Troglodytes_troglodytes_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -5813,7 +5813,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Eurasian-Wren-Troglodytes-troglodytes.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -5848,7 +5848,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Phylloscopus_collybita_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Conrads",
@@ -5860,7 +5860,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Chiffchaff_-_Phylloscopus_collybita.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
@@ -5895,7 +5895,7 @@ function getData () {
                         "Link": "http://species-id.net/openmedia/File:Tachybaptus_ruficollis_TSA-medium.mp3",
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/3.0/deed.en"
                         },
                         "Author": {
                             "Name": "Frommolt",
@@ -5907,7 +5907,7 @@ function getData () {
                         "Link": "https://commons.wikimedia.org/wiki/File:Little_grebe_Zwergtaucher.jpg",
                         "Licence": {
                             "Name": "CC BY-SA 2.5",
-                            "Link": ""
+                            "Link": "https://creativecommons.org/licenses/by-sa/2.5/deed.en"
                         },
                         "Author": {
                             "Name": "Andreas Trepte, www.photo-natur.de",
