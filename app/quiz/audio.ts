@@ -41,7 +41,7 @@ export class AudioControl {
     }
     ngAfterViewInit() {
         if (this.isBrowser) {
-            this.audioElement.nativeElement.controls = true;
+            this.audioElement.nativeElement.controls = (this.htmlcontrols == "true");
             this.audioElement.nativeElement.autoplay = (this.autoplay == "true");
             this.audioElement.nativeElement.loop = (this.loop == "true");
         } else {
