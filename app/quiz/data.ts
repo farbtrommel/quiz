@@ -28,13 +28,13 @@ function getData () {
                         "Text": "Der im Frühjahr weithin hörbare Reviergesang der Amselmännchen ist vielen Menschen vertraut. Die Amsel gilt als besonders kreativ in der Erfindung, Kombination und Variation von Motiven. Weibchen lassen manchmal gedämpfte, sonst aber dem männlichen Gesang ähnliche Strophen hören, beispielsweise bei Nestanflug oder angeregt durch den Gesang des Männchens. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Amsel&oldid=149892369"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Amsel“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 7. Januar 2016, 06:05 UTC. URL: https://de.wikipedia.org/w/index.php?title=Amsel&oldid=149892369 (Abgerufen: 4. Februar 2016, 10:45 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Amsel",
                     "Categories": [
@@ -75,13 +75,13 @@ function getData () {
                         "Text": "Im Hintergrund sind Amsel und Kohlmeise zu hören. Der typische Reviergesang der Blaumeise ist im Vergleich zu denen anderer Meisen ziemlich gleichförmig. Allerdings existiert auch eine Strophenform, die mit dem Gesang der Kohlmeise verwechselt werden kann. Auch bei Weibchen tritt gelegentlich Reviergesang auf, etwa wenn sie in territoriale Auseinandersetzungen verwickelt werden. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Blaumeise&oldid=150298175"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Blaumeise“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 16. Januar 2016, 15:32 UTC. URL: https://de.wikipedia.org/w/index.php?title=Blaumeise&oldid=150298175 (Abgerufen: 4. Februar 2016, 10:48 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Blaumeise",
                     "Categories": [
@@ -122,13 +122,13 @@ function getData () {
                         "Text": "Zu hören war der Gesang des Männchens. Laut und durchdringend singt der Buchfink ab März. In unterschiedlichen Lebensräumen sind abweichende Rufe, so genannte regionale Dialekte, zu vernehmen. Der Lockruf „pink“ (oder „fink“) ist namensgebenden. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Buchfink&oldid=148384792"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Buchfink“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 25. November 2015, 15:52 UTC. URL: https://de.wikipedia.org/w/index.php?title=Buchfink&oldid=148384792 (Abgerufen: 4. Februar 2016, 10:48 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Buchfink",
                     "Categories": [
@@ -169,13 +169,13 @@ function getData () {
                         "Text": "Zu hören waren Rufe und Trommeln. Dem Anlocken der Weibchen in der Balzzeit und der Revierabgrenzung dient das „Trommeln“, eine sehr schnelle, bis 2 Sekunden dauernde Folge von 10 bis 15 Schnabelschlägen. Die Männchen beginnen mit dem Trommeln, sobald die von ihnen gezimmerte Höhle bezugsfertig ist, und nutzen dabei alle verfügbaren Resonanzkörper. Während einzelne Trommelwirbel, die nur aus 10 bis 20 Einzelschlägen bestehen, das ganze Jahr über erklingen, sind die Trommelwirbel des Männchens während der Balzzeit ab Dezember länger und erklingen häufiger. Auch die Weibchen lassen Trommelwirbel erschallen, wenn sie sich im Revier eines Männchens befinden, und machen damit auf sich aufmerksam. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Buntspecht&oldid=148326256"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Buntspecht“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 23. November 2015, 18:31 UTC. URL: https://de.wikipedia.org/w/index.php?title=Buntspecht&oldid=148326256 (Abgerufen: 4. Februar 2016, 10:48 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Buntspecht",
                     "Categories": [
@@ -216,13 +216,13 @@ function getData () {
                         "Text": "Neben den Rufen des Eichelhähers waren auch Bussardrufe zu hören. Der Gesang ist leise schwätzend. Der Alarmruf ist ein lautes, raues und charakteristisches Rätschen. Der üblichere Ruf ist dchää-dchää und bisweilen ist ein bussardartiges, reines piüü zu vernehmen. Der Eichelhäher ist in der Lage, Stimmen anderer Vögel oder Geräusche nachzuahmen.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Eichelh%C3%A4her&oldid=150659191"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Eichelhäher“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 25. Januar 2016, 07:17 UTC. URL: https://de.wikipedia.org/w/index.php?title=Eichelh%C3%A4her&oldid=150659191 (Abgerufen: 4. Februar 2016, 10:49 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Eichelh%C3%A4her",
                     "Categories": [
@@ -263,13 +263,13 @@ function getData () {
                         "Text": "Am häufigsten lässt die Elster das „Schackern“ oder „Schäckern“ hören. Es besteht aus mehr oder weniger schnell aufeinander folgenden Rufreihen mit leicht krächzendem „schäck-schäck-schäck“. Das Schäckern ist ein Warn- und Alarmruf und dient der Verteidigung des Reviers. Nichtbrütende Elstern gebrauchen ihn nur, wenn Gefahr droht. Die Erregung der Tiere ist besonders groß, wenn das Schäckern schnell und abgehackt ist. So stellen sie sich bei langsamem Schäckern der Gefahr, fliehen aber bei schnellem Rufen. Zur Reviermarkierung lassen Paare einen nach „kia“, „kjää“ oder „kik“ klingenden Ruf hören. Oft zeigen sie sich dabei in der Mitte des Reviers auf den höchsten Zweigen eines Baumes.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Elster&oldid=150815876"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Elster“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 29. Januar 2016, 13:44 UTC. URL: https://de.wikipedia.org/w/index.php?title=Elster&oldid=150815876 (Abgerufen: 4. Februar 2016, 10:49 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Elster",
                     "Categories": [
@@ -310,13 +310,13 @@ function getData () {
                         "Text": "Zu hören war der Fluggesang von zwei Feldlerchen. Der Gesang wird von den Männchen überwiegend im Singflug vorgetragen, seltener und dann kürzer vom Boden aus. Er ist lang und über 3 bis 15 Minuten anhaltend und besteht aus einer schnellen, ununterbrochenen Folge von abwechselnden und zum Teil rhythmisch wiederholten rollenden, trillernden oder zirpenden Tönen, in die gelegentlich Imitationen eingeflochten werden. Die Männchen singen ab Ende Januar bis Mitte oder Ende Juli von der Morgendämmerung bis zum Abend. Weibchen singen ebenfalls, jedoch leise und am Boden.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Feldlerche&oldid=145804574"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Feldlerche“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 7. September 2015, 10:00 UTC. URL: https://de.wikipedia.org/w/index.php?title=Feldlerche&oldid=145804574 (Abgerufen: 4. Februar 2016, 10:50 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Feldlerche",
                     "Categories": [
@@ -357,13 +357,13 @@ function getData () {
                         "Text": "Zu hören waren Rufe von auffliegenden Graugänsen. Bekanntester Laut ist das auch von Hausgänsen bekannte „ga-ga-ga“, jedoch verfügt die sehr rufaktive Graugans über mehr als ein Dutzend verschiedener Lautäußerungen. Dabei gibt es individuelle Unterschiede. Einige Graugänse rufen immer in einer sehr hohen Kopfstimme, während andere eher geräuschhaft knarrende Laute von sich geben. Sie haben jedoch auch laut trompetende Rufe im Repertoire. Gelegentlich kommt es zu einem duettartigen Rufen zwischen zwei Individuen, wobei die Gänse dabei jeweils im Wechsel rufen.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Graugans&oldid=147034731"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Graugans“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 15. Oktober 2015, 16:25 UTC. URL: https://de.wikipedia.org/w/index.php?title=Graugans&oldid=147034731 (Abgerufen: 4. Februar 2016, 10:51 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Graugans",
                     "Categories": [
@@ -404,13 +404,13 @@ function getData () {
                         "Text": "Der Reviergesang des Hausrotschwanzes besteht im Regelfall aus einer klar in drei Abschnitte gegliederten Strophe. Variationen treten vor allem im Schlussteil auf, wobei es geografische sowie intra- und interindividuelle Unterschiede gibt. Neben dem Gesang sind am häufigsten zwei Rufe zu hören, die oft auch kombiniert werden und beide als Kontakt-, Alarm- oder Erregungsruf Verwendung finden. Dies ist zum einen ein kurzes, nach oben gezogenes „huid“, „fit“ oder „sit“, zum anderen ein schnalzendes, aggressiv klingendes „tk-tk“ oder „tuc-tuc“. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Hausrotschwanz&oldid=147722146"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Hausrotschwanz“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 5. November 2015, 06:30 UTC. URL: https://de.wikipedia.org/w/index.php?title=Hausrotschwanz&oldid=147722146 (Abgerufen: 4. Februar 2016, 10:54 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Hausrotschwanz",
                     "Categories": [
@@ -451,13 +451,13 @@ function getData () {
                         "Text": "Zu hören waren Rufe des Haussperlings. Als gesellige Vögel verfügen Haussperlinge über viele Rufe. Der übliche Warnruf bei Luftfeinden ist strukturell abweichend gegenüber anderen Sperlingsvögeln ein weiches, getrillertes „drüüü“, wobei dieser Ruf auch gelegentlich gegenüber größeren Nahrungskonkurrenten wie Möwen verwendet wird. Vor Bodenfeinden wird mit anhaltenden nasalen Rufen wie „kew kew“ oder auch „terrettett“ gewarnt. Der Gesang des Haussperlings wird nur vom Männchen vorgetragen und besteht aus einem monotonen, relativ lauten, rhythmischen „Tschilpen“. Die Tonhöhe und die Anordnung der Elemente variieren von Vogel zu Vogel erheblich. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Haussperling&oldid=149772006"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Haussperling“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 4. Januar 2016, 12:00 UTC. URL: https://de.wikipedia.org/w/index.php?title=Haussperling&oldid=149772006 (Abgerufen: 4. Februar 2016, 10:55 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Haussperling",
                     "Categories": [
@@ -498,13 +498,13 @@ function getData () {
                         "Text": "Zu hören waren Rufe und Fluggeräusche. Höckerschwäne haben ein umfangreiches und variables Stimmrepertoire. Sie sind allerdings weniger laut und ihre Rufe sind weniger wohltönend als bei anderen Schwänen. Zu den Instrumentallauten der Höckerschwäne gehört das rhythmische Halseintauchen, bei dem sie gurgelnd ausatmen. Dieses Verhalten zeigen sie unmittelbar vor der Begattung. Arttypisch sind ihre metallisch sausenden bis singenden Fluggeräusche, die bei Sing- und Zwergschwänen fehlen.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=H%C3%B6ckerschwan&oldid=149253717"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Höckerschwan“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 20. Dezember 2015, 20:55 UTC. URL: https://de.wikipedia.org/w/index.php?title=H%C3%B6ckerschwan&oldid=149253717 (Abgerufen: 4. Februar 2016, 10:55 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/H%C3%B6ckerschwan",
                     "Categories": [
@@ -545,13 +545,13 @@ function getData () {
                         "Text": "Der Kleiber ist sehr ruffreudig und laut, daher ist er meistens als erster anhand seiner Stimme zu bemerken. Er hat ein umfangreiches Repertoire. Bei der Nahrungssuche ruft er einen scharf und spitz, etwa wie „zit“ klingenden Kontaktruf. Bei Erregung ruft er den kräftigen, lauten und etwa wie „twett“ klingenden Warnruf. Dieser wird oft in schnellen, kurzen Folgen mit kurzen Pausen zwischen mehreren Folgen gerufen. Der Gesang besteht aus mehreren, lauten Strophen unterschiedlichen Typs, die von einer erhöhten Sitzwarte aus vorgetragen werden. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Kleiber&oldid=149691282"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Kleiber“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 2. Januar 2016, 10:09 UTC. URL: https://de.wikipedia.org/w/index.php?title=Kleiber&oldid=149691282 (Abgerufen: 4. Februar 2016, 16:48 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Kleiber_%28Art%29",
                     "Categories": [
@@ -592,13 +592,13 @@ function getData () {
                         "Text": "Die Kohlmeise verfügt über ein außerordentlich reiches, variables und differenziertes Repertoire an Lautäußerungen. Der Reviergesang der Männchen ist eine Reihe metallisch reiner, hoher und lauter Motive aus typischerweise zwei, manchmal aber bis vier zu Silben verschiedener Tonhöhe. Reviersuchende Männchen können anhand des Gesangs die Populationsdichte eines Gebietes und auch – aufgrund von Strophenlänge und Umfang des Repertoires – die Kompetenz eines Rivalen bei der Revierverteidigung abschätzen. Männchen mit großem Gesangsrepertoire sind durchschnittlich dominanter und erfolgreicher. Revierinhaber reagieren kaum auf Gesang, der dem eigenen ähnlich ist, eher geringfügig auf den Gesang ihrer Nachbarn, wohl aber auf den fremder Eindringlinge. Weibchen suchen sich meist Männchen, deren Gesang dem des Vaters am wenigsten ähnelt.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Kohlmeise&oldid=150876262"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Kohlmeise“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 31. Januar 2016, 10:34 UTC. URL: https://de.wikipedia.org/w/index.php?title=Kohlmeise&oldid=150876262 (Abgerufen: 4. Februar 2016, 16:49 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Kohlmeise",
                     "Categories": [
@@ -639,13 +639,13 @@ function getData () {
                         "Text": "Kolkraben können ihre Stimmlage je nach Art der Bekanntschaft mit einem Artgenossen verändern: Auf fremde Artgenossen reagieren sie mit deutlich tieferer und rauerer Stimme als auf ihnen vertraute Raben, und ihnen aus früheren Begegnungen als „freundlich“ bekannte Raben werden mit höherer Stimme begrüßt als ihnen als „unfreundlich“ bekannte Individuen. Der am häufigsten zu hörende Ruf ist ein lautes und scharfes „kraa“, das bei Bedrohung geäußert wird. Kolkraben verfügen über eine große Vielfalt von Lautäußerungen, bei mitteleuropäischen Raben wurden mindestens 34 verschiedene Ruftypen gefunden. Auch imitieren Kolkraben gern Geräusche und Rufe anderer Tierarten: Rufe von Krähen, den Balzgesang des Auerhahns, Hundegebell.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Kolkrabe&oldid=150872586"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Kolkrabe“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 31. Januar 2016, 07:42 UTC. URL: https://de.wikipedia.org/w/index.php?title=Kolkrabe&oldid=150872586 (Abgerufen: 4. Februar 2016, 16:49 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Kolkrabe",
                     "Categories": [
@@ -686,13 +686,13 @@ function getData () {
                         "Text": "Der Reviergesang des Männchens ist der namensgebende Ruf „gu-kuh“, wobei die erste Silbe betont wird. Dieser Kuckucksruf ist weit zu hören und wird von einer hohen Warte von April bis in den Juli hinein vorgetragen. Die Pausen zwischen den Rufen hängen vom Erregungszustand des rufenden Männchens ab. Je erregter, desto kürzer die Pausen. Bei sehr hoher Erregung kann es auch zu mehrsilbigen, sich überschlagenden „kuckuckuck...“-Rufen kommen. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Kuckuck&oldid=150788669"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Kuckuck“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 28. Januar 2016, 16:59 UTC. URL: https://de.wikipedia.org/w/index.php?title=Kuckuck&oldid=150788669 (Abgerufen: 4. Februar 2016, 16:50 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Kuckuck",
                     "Categories": [
@@ -733,13 +733,13 @@ function getData () {
                         "Text": "Zu hören waren Flugrufe einer Gruppe. Vor allem in Gesellschaft und bei Kämpfen sind Mauersegler außerordentlich ruffreudig. Am auffallendsten ist das hohe, schrille, oft gereiht vorgetragene „srieh srieh“, mit dem die Vögel auch den Verkehrslärm in Städten übertönen können. Eine besondere Bedeutung hat das sogenannte „Duettieren“ am Brutplatz. Ein Mauerseglerpaar ruft dort gemeinschaftlich „swii-rii“; dabei stammt das hellere „swii“ vom Weibchen und das etwas tiefere „rii“ vom Männchen. Dieses Verhalten stellt die beste Möglichkeit zur Unterscheidung der Geschlechter dar. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Mauersegler&oldid=151065756"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Mauersegler“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 4. Februar 2016, 16:07 UTC. URL: https://de.wikipedia.org/w/index.php?title=Mauersegler&oldid=151065756 (Abgerufen: 4. Februar 2016, 16:51 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Mauersegler",
                     "Categories": [
@@ -780,13 +780,13 @@ function getData () {
                         "Text": "Der Gesang der Nachtigall ist reich, wohltönend und laut und wird von Menschen als sehr angenehm und schön empfunden. Im zeitigen Frühjahr singen unverpaarte Nachtigallenmännchen ab elf Uhr nachts bis in den Morgen; der Nachtgesang dient wohl vor allem zur Anlockung einer Brutpartnerin und wird nach erfolgter Paarbildung eingestellt. Während der ganzen Brutsaison bis Mitte Juni singen Nachtigallenmännchen aber auch tagsüber. Der Gesang während der Morgendämmerung dient wohl vor allem zur Verteidigung des Revieres gegen andere Männchen. Früher galt der Gesang der Nachtigall als schmerzlindernd und sollte dem Sterbenden einen sanften Tod und dem Kranken eine rasche Genesung bringen. Auch der Name der Nachtigall leitet sich von ihrem Gesang ab − ahd. gal bedeutet „Gesang“, die Nachtigall ist also der „Nachtsänger.“",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Nachtigall&oldid=148328918"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Nachtigall“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 23. November 2015, 20:09 UTC. URL: https://de.wikipedia.org/w/index.php?title=Nachtigall&oldid=148328918 (Abgerufen: 4. Februar 2016, 16:51 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Nachtigall",
                     "Categories": [
@@ -827,13 +827,13 @@ function getData () {
                         "Text": "Der Reviergesang der Ringeltaube ist ein dumpfes, heiseres und nicht sehr lautes Gurren, das mit einem „rúhgu, gugu“ beginnt. Danach folgt ein 2 bis 13, meist aber 4- bis 5-mal wiederholtes fünfsilbiges „rugúgu, gugu“ und schließlich am Ende meist ein kurzes „gu“. Der Balzruf ist ein kürzeres „grrugu-rú“.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Ringeltaube&oldid=145191554"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Ringeltaube“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 19. August 2015, 13:12 UTC. URL: https://de.wikipedia.org/w/index.php?title=Ringeltaube&oldid=145191554 (Abgerufen: 4. Februar 2016, 16:52 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Ringeltaube",
                     "Categories": [
@@ -874,13 +874,13 @@ function getData () {
                         "Text": "Der Gesang des Rotkehlchens ist äußerst variabel. Er wird mit vorgestreckter, das Rot betonender Brust, in der Regel von einer hohen Singwarte aus, vorgetragen. Das Rotkehlchen singt manchmal mitten in der Nacht, insbesondere wenn der Mond hell scheint oder sich eine Beleuchtungsquelle (Straßenlampen, Fenster) in der Nähe befindet. Folgende Vögel können unter anderem nachgeahmt werden: Kohlmeise, Amsel, Trauerschnäpper, Blaumeise, Buchfink, Zilpzalp, Fitis, Heckenbraunelle, Goldammer, Feldlerche und Mönchsgrasmücke.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Rotkehlchen&oldid=150816651"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Rotkehlchen“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 29. Januar 2016, 14:05 UTC. URL: https://de.wikipedia.org/w/index.php?title=Rotkehlchen&oldid=150816651 (Abgerufen: 4. Februar 2016, 16:53 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Rotkehlchen",
                     "Categories": [
@@ -921,13 +921,13 @@ function getData () {
                         "Text": "Zu hören war ein Starenschwarm. Der Gesang wird ganzjährig meist von einer exponierten Warte vorgetragen, während der Brutzeit meist in unmittelbarer Nähe zur Bruthöhle. Intensiv singende Stare sträuben das Gefieder und flattern mit den gespreizten Flügeln. Der Star ist berühmt für seine Fähigkeit, Tierstimmen und Laute zu imitieren. Häufig werden z. B. Rufe von Wachtel, Mäusebussard oder Kiebitz nachgeahmt, daneben auch Hundegebell, das Geräusch von Rasenmähern oder neuerdings auch Klingeltöne von Mobiltelefonen. Die Warnrufe sind je nach Bedrohung unterschiedlich. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Star&oldid=150861892"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Star“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 30. Januar 2016, 19:27 UTC. URL: https://de.wikipedia.org/w/index.php?title=Star&oldid=150861892 (Abgerufen: 4. Februar 2016, 16:55 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Star_%28Art%29",
                     "Categories": [
@@ -968,13 +968,13 @@ function getData () {
                         "Text": "Zu hören waren drei Weibchen. Die Stockente ist eine sehr ruffreudige Ente. Männchen und Weibchen haben dabei unterschiedliche Rufe. Für die Erpel ist ein gedämpftes „räb“ charakteristisch, das sie gelegentlich auch gereiht als „rääb-räb-räb-räb“ mit abfallender Tonhöhe und Lautstärke hören lassen. Bei den Weibchen gibt es ähnliche Rufreihen, die jedoch eher nach „wak wak wak“ oder auch „wäk wäk wäk“ klingen. Zum Lautrepertoire der Stockente zählen auch einige Instrumentallaute. Dazu zählt das matte Klingeln „wich wich wich …“, das für den Flug charakteristisch ist und mit den Flügeln erzeugt wird.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Stockente&oldid=147870139"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Stockente“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 9. November 2015, 15:18 UTC. URL: https://de.wikipedia.org/w/index.php?title=Stockente&oldid=147870139 (Abgerufen: 4. Februar 2016, 16:56 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Stockente",
                     "Categories": [
@@ -1015,13 +1015,13 @@ function getData () {
                         "Text": "Bei Weibchen lassen sich elf und bei Männchen über neun unterschiedliche Lautäußerungen differenzieren. Die Rufe lassen sich in wenige Grundmuster unterteilen, deren Lautstärke, Tonhöhe und Frequenz je nach Situation variiert. Sowohl das Weibchen als auch das Männchen variieren dabei unter anderem den Bettelruf der Jungvögel, der auch als Lahnen bezeichnet wird. Besonders von Weibchen ist dieses Lahnen während der Balz zu hören oder wenn sie ihre Männchen während der Brutzeit um Futter anbetteln.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Turmfalke&oldid=149271159"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Turmfalke“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 21. Dezember 2015, 10:42 UTC. URL: https://de.wikipedia.org/w/index.php?title=Turmfalke&oldid=149271159 (Abgerufen: 4. Februar 2016, 16:58 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Turmfalke",
                     "Categories": [
@@ -1062,13 +1062,13 @@ function getData () {
                         "Text": "Waldkäuze verfügen über ein großes Lautrepertoire, deren einzelne Rufe in Lautstärke und Klangfarbe stark variieren. Der Flug ist geräuschlos. Sie lassen lediglich bei aggressiver Erregung ein Schnabelknappen hören. Der typische Ruf des Waldkauzes Männchens ist das langgezogene, heulende „Huh-Huhuhu-Huuuh“, das vorwiegend während der Balzzeit zu hören ist. Die Länge und Form der Strophe ist abhängig vom Erregungszustand des Kauzes. Die Männchen, deren Rufe individuell so charakteristisch sind, dass sie daran unterschieden werden können, rufen sowohl auf einer Anwarte sitzend als auch fliegend. Das Weibchen gibt ein raues „Kuwitt“ von sich. Von Waldkauzmännchen ist dieser Ruf gelegentlich auch zu hören. ",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Waldkauz&oldid=149004047"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Waldkauz“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 12. Dezember 2015, 23:53 UTC. URL: https://de.wikipedia.org/w/index.php?title=Waldkauz&oldid=149004047 (Abgerufen: 4. Februar 2016, 16:58 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Waldkauz",
                     "Categories": [
@@ -1109,13 +1109,13 @@ function getData () {
                         "Text": "Da die Stimme des Weißstorchs nur schwach ausgeprägt ist, verständigt er sich durch Klappern mit dem Schnabel. Deshalb wird er auch Klapperstorch genannt. Geklappert wird zur Begrüßung des Partners am Nest und zur Verteidigung gegen Nestkonkurrenten. Auch sein Balzritual geht mit ausgiebigen gemeinsamen Schnabelklappern einher.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Wei%C3%9Fstorch&oldid=150865796"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Weißstorch“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 30. Januar 2016, 22:08 UTC. URL: https://de.wikipedia.org/w/index.php?title=Wei%C3%9Fstorch&oldid=150865796 (Abgerufen: 4. Februar 2016, 17:00 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Wei%C3%9Fstorch",
                     "Categories": [
@@ -1156,13 +1156,13 @@ function getData () {
                         "Text": "Der markante, recht eintönige Gesang, auf den sich der deutsche Name bezieht, klingt wie „zilp-zalp-zelp-zilp-zalp“, wobei die einzelnen Elemente in der Tonhöhe wechseln. Dazwischen werden oft 2 bis 5 harte, etwa wie „trrt“ klingende Laute eingebaut. Der Gesang erfolgt von Warten, häufig von noch unbelaubten Zweigen im inneren Randbereich der Krone größerer Bäume oder während der Bewegung in den Baumkronen. Der auch im Herbst häufig zu hörende Lockruf ist ein einfaches, weiches, pfeifendes und am Schluss betontes „huid“.",
                         "Author": {
                             "Name": "Wikipedia-Autoren, siehe Versionsgeschichte",
-                            "Link": ""
+                            "Link": "https://de.wikipedia.org/w/index.php?title=Zilpzalp&oldid=144272156"
                         },
                         "Licence": {
                             "Name": "CC BY-SA 3.0",
                             "Link": "https://de.wikipedia.org/wiki/Wikipedia:Lizenzbestimmungen_Creative_Commons_Attribution-ShareAlike_3.0_Unported"
                         },
-                        "Quotation": ""
+                        "Quotation": "Seite „Zilpzalp“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 22. Juli 2015, 14:50 UTC. URL: https://de.wikipedia.org/w/index.php?title=Zilpzalp&oldid=144272156 (Abgerufen: 4. Februar 2016, 17:00 UTC)"
                     },
                     "Link": "https://de.wikipedia.org/wiki/Zilpzalp",
                     "Categories": [
@@ -5917,46 +5917,6 @@ function getData () {
                     }
                 }
             ]
-        },
-        {
-            "id": 2,
-            "Name": "Amphibien",
-            "Teaser": {
-                "Text": "",
-                "Image": {
-                    "Src": "",
-                    "Link": "",
-                    "Licence": {
-                        "Name": "",
-                        "Link": ""
-                    },
-                    "Author": {
-                        "Name": "",
-                        "Link": ""
-                    }
-                }
-            },
-            "GamesSet": []
-        },
-        {
-            "id": 3,
-            "Name": "Heuschrecken",
-            "Teaser": {
-                "Text": "",
-                "Image": {
-                    "Src": "",
-                    "Link": "",
-                    "Licence": {
-                        "Name": "",
-                        "Link": ""
-                    },
-                    "Author": {
-                        "Name": "",
-                        "Link": ""
-                    }
-                }
-            },
-            "GamesSet": []
         }
     ];
 }
