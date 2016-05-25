@@ -1,0 +1,51 @@
+<ion-navbar *navbar>
+    <ion-title>Deine Ergebnisse</ion-title>
+</ion-navbar>
+
+<ion-content class="quiz summary">
+    <!-- <ion-list-header>
+        Spieleübersicht
+    </ion-list-header> -->
+    <ion-list *ngIf="quizSet">
+        <ion-item>
+            <div style="text-align: center;">
+                <ion-icon name="checkmark" large class="mark-as-right">&nbsp;:&nbsp;{{ quizSet.wins }}</ion-icon>
+                &nbsp;&nbsp;
+                <ion-icon name="close" large class="mark-as-wrong">&nbsp;:&nbsp;{{ quizSet.losses }}</ion-icon>
+            </div>
+        </ion-item>
+        <ion-item>
+            <span>Richtige Antwort</span>
+            <span item-right>Meine Antwort</span>
+        </ion-item>
+        <ion-item clear
+                *ngFor="#round of quizSet.Set; #i = index">
+            <button dark clear class="left-column" (click)="clickViewDetails(quizSet.CorrectAnswer[i])">
+                <ion-thumbnail item-left>
+                    <img src="assets/quiz/{{ quizSet.GameId }}/thumbnail-{{ quizSet.CorrectAnswer[i].id }}.jpg">
+                </ion-thumbnail>
+
+                <p>{{ quizSet.CorrectAnswer[i].Name }}</p>
+                <!-- <p>{{ quizSet.CorrectAnswer[i].Sciname }}</p> -->
+            </button>
+            <div class="middle-column">
+                Runde {{ i+1 }}
+                <br/>
+                &nbsp;&nbsp;
+                <ion-icon name="checkmark" large item-left class="mark-as-right"
+                          *ngIf="quizSet.CorrectAnswer[i]==quizSet.Answers[i]"></ion-icon>
+                <ion-icon name="close" item-left class="mark-as-wrong"
+                          *ngIf="quizSet.CorrectAnswer[i]!=quizSet.Answers[i]"></ion-icon>
+
+            </div>
+            <button dark clear class="right-column" (click)="clickViewDetails(quizSet.Answers[i])">
+                <ion-thumbnail item-right>
+                    <img src="assets/quiz/{{ quizSet.GameId }}/thumbnail-{{ quizSet.Answers[i].id }}.jpg">
+                </ion-thumbnail>
+
+                <p>{{ quizSet.Answers[i].Name }}</p>
+                <!-- <p>{{ quizSet.Answers[i].Sciname }}</p> -->
+            </button>
+        </ion-item>
+    </ion-list>
+</ion-content>

@@ -1,0 +1,126 @@
+.quiz {
+  &.summary {
+    button {
+      background-color: transparent;
+      color: black;
+    }
+    ion-avatar img, ion-thumbnail img {
+      display: inline-block;
+    }
+    .left-column, .middle-column, .right-column{
+      font-size: 1.35rem;
+      box-shadow: none;
+      text-transform: none;
+    }
+
+    .left-column {
+      width:40%;
+      display: inline-block;
+      text-align: left;
+      height: 100%;
+      .button-inner {
+        display: inline-block;
+      }
+    }
+
+    .middle-column {
+      width:10%;
+      display: inline-block;
+      vertical-align: bottom;
+      text-align: center;
+      height: 100%;
+    }
+
+    .right-column {
+      width:47%;
+      display: inline-block;
+      text-align: right;
+      ion-thumbnail {
+        margin-right: 0;
+      }
+      height: 100%;
+      .button-inner {
+        display: inline-block;
+      }
+    }
+  }
+  &.quiz-extra-background {
+    background-image: url("../../img/home.jpg");
+//    background-size: 150% 120%;
+    background-position: 20% 20%;
+  }
+
+  .mark-as-right:before, .mark-as-wrong:before {
+    font-size: 3em;
+    vertical-align: -0.26em;
+  }
+
+  .quiz-question-row {
+    margin: auto auto;
+    display: flex;
+    quiz-question {
+      float: right;
+    }
+  }
+  ion-card-content {
+    overflow: hidden;
+  }
+
+  ion-card.right-answer, ion-thumbnail.right,
+  ion-card.wrong-answer, ion-thumbnail.wrong {
+    position: relative;
+  }
+
+  ion-card.right-answer:after, ion-thumbnail.right:after,
+  ion-card.wrong-answer:after, ion-thumbnail.wrong:after {
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    font-size: 12em;
+    color: rgba(255, 255, 255, 0.7);
+
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  ion-card.right-answer:after, ion-thumbnail.right:after {
+    content: "\f3ff";
+    //background-image: url('../../img/answer_right.png');
+    background-color: rgba(0, 255, 0, 0.6);
+  }
+  ion-card.wrong-answer:after, ion-thumbnail.wrong:after {
+    content: "\f2c0";
+    //background-image: url('../../img/answer_wrong.png');
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+
+
+  button[fab].fab-audio ion-icon{
+    margin-top: 14px;
+  }
+  button[fab].fab-audio {
+    margin-top: -27px;
+    z-index: 50;
+  }
+  body.ios button[fab].fab-audio {
+    width: 50px;
+    height: 50px;
+  }
+  body.md button[fab].fab-audio {
+    margin-top: -27px;
+  }
+}

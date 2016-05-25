@@ -1,0 +1,129 @@
+
+<ion-navbar *navbar>
+  <ion-title>
+    {{ title }}
+  </ion-title>
+</ion-navbar>
+
+
+<ion-toolbar *ngIf="showDetails">
+    <ion-segment [(ngModel)]="filterOption" [attr.padding]="(!isAndroid)? '' : null">
+        <ion-segment-button value="list">
+            <ion-icon name="list"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="top">
+            <ion-icon name="thumbs-up"></ion-icon>
+        </ion-segment-button>
+        <ion-segment-button value="flops">
+            <ion-icon name="thumbs-down"></ion-icon>
+        </ion-segment-button>
+        <!--
+        <ion-segment-button value="unrated">
+            <ion-icon name="star-outline"></ion-icon>
+        </ion-segment-button>
+        -->
+    </ion-segment>
+</ion-toolbar>
+
+<ion-content class="stats">
+    <ion-list *ngIf="!showDetails">
+        <!--
+        <ion-item>
+            <ion-icon name="checkmark" large class="mark-as-right">&nbsp;:&nbsp;{{ storageService.getGameStats().wins }}</ion-icon>
+            <ion-icon name="close" large class="mark-as-wrong" style="float:right;">&nbsp;:&nbsp;{{ storageService.getGameStats().losses }}</ion-icon>
+        </ion-item>
+        -->
+        <ion *ngFor="#item of Games; #i = index">
+            <button ion-item (click)="onClickCategory(item, i)" *ngIf="item.GamesSet.length > 0">
+                <!-- <ion-thumbnail item-left>
+                    <img src="./img/placeholder-home-screen.png"/>
+                </ion-thumbnail> -->
+                <h2>{{item.Name}}</h2>
+                <stars [value]="storageService.getGameStats().getStars(item.id)"></stars>
+
+                <!--
+                <ion-icon name="checkmark" class="mark-as-right">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(item.id).wins }}</ion-icon>
+                <ion-icon name="close" class="mark-as-wrong" style="float:right;">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(item.id).losses }}</ion-icon>
+                -->
+            </button>
+        </ion>
+    </ion-list>
+
+    <!--
+    <ion-item *ngIf="showDetails">
+        <ion-thumbnail item-left>
+            <img src="./img/placeholder-home-screen.png"/>
+        </ion-thumbnail>
+        <h2>{{Games[gameNo].Name}}</h2>
+        <ion-icon name="checkmark" large class="mark-as-right">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(gameId).wins }}</ion-icon>
+        <ion-icon name="close" large class="mark-as-wrong" style="float:right;">&nbsp;:&nbsp;{{ storageService.getGameStats().getGameById(gameId).losses }}</ion-icon>
+    </ion-item>
+    -->
+
+    <div [ngSwitch]="filterOption" *ngIf="showDetails">
+        <ion-list *ngSwitchWhen="'list'">
+            <!--
+            <ion-list-header>
+                Alle Tiere
+            </ion-list-header>
+            -->
+            <ion-searchbar
+                    [(ngModel)]="searchQuery"
+                    (input)="getItems($event)"
+                    *ngIf="showDetails && filterOption=='list'"></ion-searchbar>
+            <ion *ngFor="#entry of gameSet">
+                <stats-entry
+                        [item]="gameSetById[entry.id]"
+                        [game]="Games[gameNo]"
+                        [stats]="storageService.getGameStats().getStats(gameNo, entry.id)"
+                        [stars]="storageService.getGameStats().getStars(gameNo, entry.id)"></stats-entry>
+            </ion>
+            <ion-item *ngIf="gameSet && gameSet.length == 0">Keine Einträge</ion-item>
+        </ion-list>
+        <ion-list *ngSwitchWhen="'top'">
+            <!--
+            <ion-list-header>
+                Best erkannte Tiere
+            </ion-list-header>
+            -->
+            <ion *ngFor="#entry of topSet">
+                <stats-entry
+                        [item]="gameSetById[entry[0]]"
+                        [game]="Games[gameNo]"
+                        [stats]="entry[1]"
+                        [stars]="entry[2]"></stats-entry>
+            </ion>
+            <ion-item *ngIf="topSet.length == 0">Keine Einträge</ion-item>
+        </ion-list>
+        <ion-list *ngSwitchWhen="'flops'">
+            <!--
+            <ion-list-header>
+                Schlecht erkannte Tiere
+            </ion-list-header>
+            -->
+            <ion *ngFor="#entry of flopSet">
+                <stats-entry
+                        [item]="gameSetById[entry[0]]"
+                        [game]="Games[gameNo]"
+                        [stats]="entry[1]"
+                        [stars]="entry[2]"></stats-entry>
+            </ion>
+            <ion-item *ngIf="flopSet.length == 0">Keine Einträge</ion-item>
+        </ion-list>
+        <!--
+        <ion-list *ngSwitchWhen="'unrated'">
+            <ion *ngFor="#entry of unratedSet">
+                <stats-entry
+                        [item]="gameSetById[entry[0]]"
+                        [game]="Games[gameNo]"
+                        [stats]="entry[1]"
+                        [stars]="entry[2]"></stats-entry>
+            </ion>
+            <ion-item *ngIf="unratedSet.length == 0">Keine Einträge</ion-item>
+        </ion-list>
+        -->
+    </div>
+
+
+
+</ion-content>
