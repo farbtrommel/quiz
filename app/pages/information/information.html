@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      {{ title }}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="information">
+  <button ion-item (click)="onClickLoadPage('imprint')">
+    Impressum
+  </button>
+  <button ion-item (click)="onClickLoadPage('privacy')">
+    Datenschutz
+  </button>
+  <button ion-item (click)="onClickLoadPage('credentials')">
+    Credentials
+  </button>
+</ion-content>

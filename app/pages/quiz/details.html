@@ -1,0 +1,84 @@
+<ion-header no-shadow>
+  <ion-toolbar class="android-attr">
+    <ion-title>
+      {{ item.Name }}
+    </ion-title>
+    <ion-buttons start>
+      <button (click)="dismiss()" clear *ngIf=" currentPlatform === 'ios' ">
+        <span primary>Abbrechen</span>
+      </button>
+      <button (click)="dismiss()" clear *ngIf=" currentPlatform === 'android' " style="margin-right: 10px">
+        <ion-icon name='close'></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content class="has-header components-demo cards-bg quiz">
+  <ion-card class="max-width">
+    <img src="./assets/quiz/{{ gameId }}/thumbnail-{{ item.id }}.jpg">
+    <button fab fab-right class="fab-audio">
+      <ion-audio src="./assets/quiz/{{ gameId }}/audio-{{item.id}}.mp3"
+                 htmlcontrols="false" controls="true" autoplay="false" loop="true"></ion-audio>
+    </button>
+
+    <ion-card-content>
+      <h1> {{ item.Name }} </h1>
+      <h2> {{ item.Sciname }} </h2>
+      <br/>
+      <p> {{ item.Abstract.Text }} </p>
+
+      <div *ngIf="quotation">
+        <br *ngIf="item.Abstract.Quotation"/>
+        <p *ngIf="item.Abstract.Quotation">
+          <a (click)="openLink(item.Abstract.Author.Link, item.Abstract.Link)">
+            Quelle: {{ item.Abstract.Quotation }}
+          </a>
+        </p>
+        <br/>
+        <p>
+          <a (click)="openLink(item.Image.Author.Link, item.Image.Link)">
+            <ion-icon name="image"></ion-icon>
+            &nbsp;{{ item.Image.Author.Name }}
+          </a>
+        </p>
+        <p>
+          <a (click)="openLink(item.Image.Licence.Link, item.Image.Link)">
+            &copy;&nbsp; {{ item.Image.Licence.Name }}
+          </a>
+        </p>
+        <br/>
+        <p>
+          <a (click)="openLink(item.Audio.Author.Link, item.Audio.Link)">
+            <ion-icon name="musical-notes"></ion-icon>
+            &nbsp;{{ item.Audio.Author.Name }}
+          </a>
+        </p>
+        <p>
+          <a (click)="openLink(item.Audio.Licence.Link, item.Audio.Link)">
+            &copy;&nbsp; {{ item.Audio.Licence.Name }}
+          </a>
+        </p>
+      </div>
+
+    </ion-card-content>
+
+    <ion-item>
+      <button primary clear item-left (click)="openLink(item.Link)">
+        <ion-icon name='link'></ion-icon>
+      </button>
+      <button primary clear item-left (click)="openLink(item.Image.Link)">
+        <ion-icon name='image'></ion-icon>
+      </button>
+      <button primary clear item-left (click)="openLink(item.Audio.Link)">
+        <ion-icon name='musical-notes'></ion-icon>
+      </button>
+      <button primary clear item-right (click)="toggleQuotation()">
+        <ion-icon name='quote'></ion-icon>
+      </button>
+
+    </ion-item>
+
+  </ion-card>
+</ion-content>

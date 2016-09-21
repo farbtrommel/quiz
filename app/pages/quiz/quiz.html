@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Quizrunde {{quizSet.CrtQuestion + 1}} / {{quizSet.NumberOfGames}}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="quiz quiz-extra-background">
+  <div *ngIf="quizSet.CrtCorrectAnswer && quizSet.CrtQuestion < quizSet.NumberOfGames">
+    <ion-row>
+      <div class="quiz-question-row">
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][0]" (click)="onClick(0)"></quiz-question>
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][1]" (click)="onClick(1)"></quiz-question>
+      </div>
+    </ion-row>
+    <ion-row>
+      <div class="quiz-question-row">
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][2]" (click)="onClick(2)"></quiz-question>
+        <quiz-question [(quizset)]="quizSet"
+                       [(item)]="quizSet.Set[quizSet.CrtQuestion][3]" (click)="onClick(3)"></quiz-question>
+      </div>
+    </ion-row>
+    <ion-audio
+      src="./assets/quiz/{{ quizSet.GameId }}/audio-{{quizSet.CrtCorrectAnswer.id}}.mp3"
+      htmlcontrols="true" controls="false" autoplay="true" loop="true"></ion-audio>
+  </div>
+</ion-content>

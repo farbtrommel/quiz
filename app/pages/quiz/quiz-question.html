@@ -1,0 +1,9 @@
+<ion-col>
+    <ion-card [class.right-answer]="quizset.RoundFinished && quizset.CrtCorrectAnswer.id == item.id && (quizset.Answers[quizset.CrtQuestion].id == item.id || quizset.storageService.getShowCorrectAnswer())"
+              [class.wrong-answer]="quizset.RoundFinished && quizset.CrtCorrectAnswer.id != item.id && quizset.Answers[quizset.CrtQuestion].id == item.id">
+        <img src="./assets/quiz/{{quizset.GameId}}/thumbnail-{{ item.id }}.jpg">
+        <ion-card-content>
+            <p> {{ item.Name }} </p>
+        </ion-card-content>
+    </ion-card>
+</ion-col>

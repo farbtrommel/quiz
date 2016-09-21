@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar hideBackButton class="show-navbar android-attr">
+    <ion-title>{{ title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="has-header components-demo cards-bg home">
+  <ion *ngFor="let game of Games">
+    <ion-card (click)="startGame(game)" *ngIf="game.GamesSet.length > 0" class="max-width">
+      <ion-icon name="musical-note" item-right></ion-icon>
+      <h2 class="advanced-category" item-left>Vogelgesänge erkennen</h2>
+      <h1 class="advanced-background-title">
+        {{ game.Name }}
+      </h1>
+
+      <p class="advanced-background-subtitle">{{ game.GamesSet.length }} Arten </p>
+
+    </ion-card>
+  </ion>
+  <!--
+  <ion-audio
+          src="./assets/loadAudio.mp3"
+          htmlcontrols="false"
+          controls="false"
+          autoplay="false"
+          loop="false"></ion-audio>
+  -->
+</ion-content>

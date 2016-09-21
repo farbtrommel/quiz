@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>{{ title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="settings">
+  <ion-list>
+
+    <button ion-item (click)="openPrompt()">
+      Anzahl der Runden
+      <ion-badge item-right>{{ storageService.getNumberOfRounds() }}</ion-badge>
+    </button>
+    <ion-item>
+      <ion-label>Experten Modus</ion-label>
+      <ion-toggle id="settingsExpertMode" [checked]="expertMode" (click)="clickExpertMode()">
+      </ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Zeige richtige Antwort</ion-label>
+      <ion-toggle id="settingsShowCorrectAnswer"
+                  [checked]="showCorrectAnswer"
+                  (click)="clickShowCorrectAnswer()">
+      </ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label>Sende Statistik</ion-label>
+      <ion-toggle id="settingsSendStats" [checked]="sendStats" (click)="clickSendStats()">
+        <button clear (click)="showDataPrivacy()" class="info-btn">
+          <ion-icon name="information-circle" is-active="false"></ion-icon>
+        </button>
+      </ion-toggle>
+    </ion-item>
+  </ion-list>
+</ion-content>

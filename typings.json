@@ -1,0 +1,9 @@
+{
+  "dependencies": {},
+  "devDependencies": {},
+  "globalDependencies": {
+    "cordova": "registry:dt/cordova#0.0.0+20160607055823",
+    "cordova/plugins/media": "registry:dt/cordova/plugins/media#0.0.0+20160316155526",
+    "es6-shim": "registry:dt/es6-shim#0.31.2+20160602141504"
+  }
+}
